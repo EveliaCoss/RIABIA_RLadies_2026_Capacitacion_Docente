@@ -1,6 +1,7 @@
-<img src="logos/Logo_Textoprincipal.png" alt="RIABIA" width="100" style="float: left;">
-
-<img src="logos/rladies.jpeg" alt="RLadies" width="100" style="float: right;">
+<div style="display: flex; align-items: center; gap: 20px;">
+  <img src="logos/Logo_Textoprincipal.png" alt="RIABIA" width="100">
+  <img src="logos/rladies.jpeg" alt="RLadies" width="100">
+</div>
 
 # RIABIA + RLadies: Capacitación para la Docencia en Bioinformática
 
