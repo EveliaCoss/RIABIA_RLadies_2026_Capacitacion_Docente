@@ -11,11 +11,10 @@
 
   Durante el curso, utilizaremos una variedad de recursos, que incluyen materiales prácticos y teóricos para el desarrollo de habilidades de enseñanza en bioinformática. Entre los principales materiales se encuentran los proporcionados por [MetaDocencia y CABANAnet](https://www.metadocencia.org/curso/entrenamiento-instructores/), [The Capentries](https://carpentries.github.io/instructor-training/) y [Rstudio Education](https://education.rstudio.com/trainers/#info).
 
-  - **Fechas:** 29 y 30 de abril de 2025
-
+  - **Fechas:** 21 y 23 de septiembre de 2026
   - **Duración del curso:** 16 horas (8 horas diarias)
-
-  - **Sede:** Laboratorio Internacional de Investigación sobre el Genoma Humano (LIIGH-UNAM), Campus Juriquilla, Querétaro.
+  - **Horario:** 9 a 18 h (Hora de la Ciudad de México)
+  - **Modalidad:** Virtual
 
   #### **Instructoras certificadas con The Carpentries:**
 
