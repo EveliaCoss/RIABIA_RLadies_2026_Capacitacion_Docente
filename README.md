@@ -1,50 +1,61 @@
-<img src="figures/cabananet_logo.png" alt="CABANAnet Logo" width="150" style="float: left;">
+![](logos/Logo_Textoprincipal.png){fig-align="left" width="150"}
 
-# CABANAnet: Entrenamiento para instructores
+![](logos/rladies.jpeg){fig-align="right" width="150"}
 
-### **Instructores:**
+# RIABIA + RLadies: Capacitación para la Docencia en Bioinformática
 
--   **Evelia Coss** - Postdoctoral LIIGH, VieRnes de Bioinformática en el LIIGH-UNAM, RSG México y Rladies Morelia. Instructora certificada de Carpentries. [Web page](https://eveliacoss.github.io/)
--   **Miguel Angel Magaña Lemus** - Tecnico CCM-UNAM, Instructor certificado de Carpentries.
--   **Domingo Martinez** - Postdoctoral LIIGH-UNAM, Profesor de Asignatura ENES-UNAM. Ayudantes Johanna Castelán - RSG México y Rladies Morelia Marisol Navarro - RSG México
+### **Instructoras:**
 
+- **M.C. Verónica Jiménez Jacinto** - RLadies Cuernavaca; Coordinadora del comité de entrenamiento de la Red Iberoamericana de Prospectiva de IA para Biociencias y Biotecnología. veronica.jimenez@ibt.unam.mx
+- **Dra. Ernestina Godoy Lozano** - Jefa del Departamento de Bioinformática en Enfermedades Infecciosas del CISEI, INSP; Instructora y Trainer certificada de The Carpentries; RLadies Cuernavaca. tinagodoy@gmail.com
+- **Dra. Evelia Coss** - Profesora de asignatura de la ENES-Juriquilla UNAM, VieRnes de Bioinformática, RSG México y Rladies Morelia. Web page, ecossnav@gmail.com
+- **cDra. Quetzally Medina Velázquez** - Estudiante de doctorado en la carrera de Ciencias Biomédicas por la UNAM (INCMNSZ); Presidenta de la A.C. Comunidad de Científicas Mexicanas; Rladies Morelia. quetzally.medina.velazquez@gmail.com
+- **Dra. Nelly Sélem Mojica** - Profesora investigadora en el Centro de Ciencias Matemáticas UNAM Morelia; RLadies Morelia; RSG México; ISCB-Wikipedia. nselem84@gmail.com
+- **cDra. Sofía Zorrilla Azcué** - Estudiante de doctorado en el Instituto de Biología de la UNAM y Kew Royal Botanic; profesora de asignatura en Ciencias Ambientales en la ENES Morelia; RLadies Morelia. Web page; sofia.zorrilla95@gmail.com
 
-### **Información del curso** 
+### **Información del curso**
 
-- **Máximo número de participantes:** 15
 - **Duración:** 16 horas (8 horas diarias)
 - **Idioma:** Español
-- 📆 **Fechas**: 28 al 30 de abril de 2025
-- 🏢 **Sede:** Laboratorio Internacional de Investigación sobre el Genoma Humano (LIIGH-UNAM), Juriquilla, Querétaro, México. [Mapa](https://www.google.com/maps/place/Laboratorio+Internacional+de+Investigaci%C3%B3n+sobre+el+Genoma+Humano+(LIIGH)+UNAM/data=!4m2!3m1!1s0x0:0xde7120fbed54624f?sa=X&ved=1t:2428&ictx=111) 
+- 📆 **Fechas**: 21 y 23 de septiembre de 2026
+- 🏢 **Modalidad:** Virtual
+- **Horario:** 9 a 18 h (Hora de la Ciudad de México)
 
 ### **Descripción** 📌
 
-El evento CABANAnet: Entrenamiento para Instructores está diseñado para capacitar a los **futuros instructores en el uso de la red CABANAnet**, un recurso clave para la enseñanza de bioinformática y herramientas computacionales en la ciencia. A través de este entrenamiento, los participantes aprenderán a utilizar la plataforma, explorar sus características y métodos pedagógicos, y desarrollar habilidades para enseñar a otros de manera efectiva, promoviendo un aprendizaje inclusivo y accesible en el ámbito de la bioinformática.
+Este curso de formación de instructoras/es está diseñado para preparar a personas interesadas en convertirse en instructores tipo Carpentries. Sin embargo, gran parte de nuestro plan de estudios se centra en principios educativos que pueden aplicarse en una amplia variedad de contextos. También damos la bienvenida a las/os participantes que simplemente desean mejorar sus habilidades docentes.
 
 ### **Objetivo** 🚀
 
-Capacitar a los participantes en el uso y enseñanza de CABANAnet, brindándoles las herramientas necesarias para **impartir formación efectiva y promover el aprendizaje interactivo en bioinformática**, asegurando la transferencia de conocimientos y el fortalecimiento de la red de instructores.
+Elevar la calidad de los talleres y cursos impartidos por los miembros de RIABIA.
 
-Este entrenamiento proporcionará:
+El entrenamiento de instructores tiene los siguientes objetivos específicos para los participantes:
 
--   Orientación sobre técnicas generales de capacitación y el uso adecuado de métodos pedagógicos, centrados en las necesidades de los participantes, junto con consejos prácticos para garantizar una capacitación exitosa.
+- Introducir a los participantes en las prácticas docentes basadas en evidencia.
+- Enseñar cómo crear un ambiente positivo para los alumnos en cualquier taller.
+- Brindar oportunidades para practicar y desarrollar sus habilidades de enseñanza.
+- Brindar una introducción al código en vivo para la enseñanza de bioinformática y herramientas computacionales en la ciencia.
 
--   Un marco para el diseño curricular efectivo y su posterior desarrollo, que permitirá a los futuros instructores crear y adaptar cursos alineados con las necesidades de su alumnado.
+Debido a que tenemos un tiempo limitado, algunas cosas están más allá del alcance de esta capacitación. No estaremos aprendiendo:
 
--   Oportunidades para practicar la entrega de capacitación virtual, fomentando la interacción y aprendizaje a distancia de manera efectiva.
+- Cómo programar en R o Python, usar Git o SQL, o cualquiera de los otros temas que se enseñan en Data Carpentry, Library Carpentry, o talleres de Software Carpentry.
+- Cómo crear sus propias lecciones desde cero (aunque tendrán un buen punto de partida en los principios que sustentan este tipo de trabajo si desean profundizar en el tema.).
+- Cómo hacer análisis bioinformáticos o ejecutar pipelines de análisis genómico y transcriptómico.
+
+Los eventos de formación de instructores son prácticos en todo momento: las lecciones breves se alternan con ejercicios prácticos individuales y en grupo, incluidas sesiones de enseñanza práctica.
 
 ### **Enfoque de la audiencia**
 
-Este entrenamiento está orientado a personas con un fuerte **interés en la docencia**, especialmente aquellas que buscan fortalecer sus habilidades para enseñar **bioinformática**. 
+Instructores con experiencia en la enseñanza de programación para científicos, análisis bioinformáticos, ciencias de datos o cualquier otro tema, en el que deseen mejorar sus habilidades docentes.
 
 ### **Pre-requisitos** 📚
 
 Se recomienda a los participantes que:
 
--   Estén cursando un posgrado o tengan varios años de experiencia en investigación o educación universitaria.
--   Se encuentren trabajando en una institución latinoamericana y se prevea que permanezcan en ella al menos durante el próximo año.
--   Tengan un gran interés en la enseñanza y hayan participado previamente en programas de formación.
--   Hayan identificado una necesidad o brecha en la cual pueden ofrecer capacitación y ya hayan reflexionado sobre el tipo de formación que desean brindar.
+- Estén cursando un posgrado o tengan varios años de experiencia en investigación o educación universitaria.
+- Se encuentren trabajando en una institución latinoamericana y se prevea que permanezcan en ella al menos durante el próximo año.
+- Tengan un gran interés en la enseñanza y hayan participado previamente en programas de formación.
+- Hayan identificado una necesidad o brecha en la cual pueden ofrecer capacitación y ya hayan reflexionado sobre el tipo de formación que desean brindar.
 
 ## **Materiales** 🌱
 
