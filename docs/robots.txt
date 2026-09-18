@@ -1,1 +1,1 @@
-Sitemap: https://cabana.network/sitemap.xml
+Sitemap: https://rladiesmx.netlify.app/sitemap.xml

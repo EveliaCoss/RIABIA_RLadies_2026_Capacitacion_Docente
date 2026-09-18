@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 book:
-  title: "CABANANet: Train the Trainers"
-  author: "Evelia Coss, Miguel Magaña y Domingo Martinez"
-  date: "04/29/2025"
+  title: "RIABIA + RLadies: Capacitación para la Docencia en Bioinformática"
+  author: "Verónica Jimenez, Evelia Coss, Quetzally Medina, Ernestina Godoy, Nelly Sélem, Sofía Zorrilla"
+  date: "09/21/2025"
   page-navigation: true
   chapters:
   - index.qmd
@@ -22,28 +22,28 @@ book:
     - Cap3A.qmd
     - Cap3B.qmd
     - Cap3C.qmd
-  - part: "**Sección 4** - Audiencia y Simulación de entrenamiento"
-    chapters:
-    - Cap4A.qmd
-    - Cap4B.qmd
-  - part: "**Sección 5** - Enseñar en línea y Planificación de cursos"
+  - part: "**Sección 4** - Enseñar en línea y Planificación de cursos"
     chapters:
     - Cap5A.qmd
     - Cap5B.qmd
+  - part: "**Sección 5** - Audiencia y Simulación de entrenamiento"
+    chapters:
+    - Cap4A.qmd
+    - Cap4B.qmd
   - part: "**Sección 6** - Programación en vivo y entrenamientos"
     chapters:
     - Cap6A.qmd
     - Cap6B.qmd
     - Cap6C.qmd
   # Information
-  site-url: https://cabana.network/ # 📍URL del sitio completo CABANANet
-  repo-url: https://github.com/EveliaCoss/CABANAnet_TrainTrainers2025 # link de Github
+  site-url: https://rladiesmx.netlify.app/ # 📍URL del sitio completo Rladies Mexico
+  repo-url: https://github.com/EveliaCoss/RIABIA_RLadies_2026_Capacitacion_Docente # link de Github
   sharing: [twitter, facebook, linkedin]
-  favicon: "figures/cabananet_logo.png" # icono de la pagina en pestana
+  favicon: "logos/Logo_Textoprincipal.png" # icono de la pagina en pestana
 
 format:
   html:
-    logo: "figures/cabananet_logo.png"
+    logo: "logos/Logo_Textoprincipal.png"
     toc-depth: 4
     number-depth: 3
   # Boton para cambiar tema de oscuro a claro

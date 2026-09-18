@@ -2,15 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Evelia Coss, Miguel Magaña y Domingo Martinez">
-<meta name="dcterms.date" content="2025-04-29">
+<meta name="author" content="Verónica Jimenez, Evelia Coss, Quetzally Medina, Ernestina Godoy, Nelly Sélem, Sofía Zorrilla">
+<meta name="dcterms.date" content="2025-09-21">
 
-<title>CABANANet: Train the Trainers</title>
+<title>RIABIA + RLadies: Capacitación para la Docencia en Bioinformática</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -33,25 +36,34 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./intro.html" rel="next">
-<link href="./figures/cabananet_logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
+<link href="./logos/Logo_Textoprincipal.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-367522ac618891c39d4b2ae87ea7600e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c5491cb7295b3d79f070a3ccf938a403.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-367522ac618891c39d4b2ae87ea7600e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -60,26 +72,190 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Información general</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Información general</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -89,30 +265,30 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">CABANANet: Train the Trainers</a> 
+      <a href="./">RIABIA + RLadies: Capacitación para la Docencia en Bioinformática</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com/EveliaCoss/CABANAnet_TrainTrainers2025" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/EveliaCoss/RIABIA_RLadies_2026_Capacitacion_Docente" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
     <div class="dropdown">
-      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Share"><i class="bi bi-share"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
             <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
-              <i class="bi bi-bi-twitter pe-1"></i>
+              <i class="bi bi-twitter pe-1"></i>
             Twitter
             </a>
           </li>
           <li>
             <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
-              <i class="bi bi-bi-facebook pe-1"></i>
+              <i class="bi bi-facebook pe-1"></i>
             Facebook
             </a>
           </li>
           <li>
             <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
-              <i class="bi bi-bi-linkedin pe-1"></i>
+              <i class="bi bi-linkedin pe-1"></i>
             LinkedIn
             </a>
           </li>
@@ -137,9 +313,9 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text"><strong>Sección 1</strong> - Bienvenida e Introducción</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -160,9 +336,9 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text"><strong>Sección 2</strong> - Modelos mentales y carga Cognitiva</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -183,9 +359,9 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
  <span class="menu-text"><strong>Sección 3</strong> - Memoria y otros principios</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -212,55 +388,55 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
- <span class="menu-text"><strong>Sección 4</strong> - Audiencia y Simulación de entrenamiento</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text"><strong>Sección 4</strong> - Enseñar en línea y Planificación de cursos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Cap4A.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Introducción y recapitulación</span></span></a>
+  <a href="./Cap5A.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Cap4B.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Principios de una buena capacitación</span></span></a>
+  <a href="./Cap5B.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Simulación de entrenamiento 1 (en grupos)</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
- <span class="menu-text"><strong>Sección 5</strong> - Enseñar en línea y Planificación de cursos</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text"><strong>Sección 5</strong> - Audiencia y Simulación de entrenamiento</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Cap5A.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></span></a>
+  <a href="./Cap4A.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Introducción y recapitulación</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Cap5B.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Simulación de entrenamiento 1 (en grupos)</span></span></a>
+  <a href="./Cap4B.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Principios de una buena capacitación</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
  <span class="menu-text"><strong>Sección 6</strong> - Programación en vivo y entrenamientos</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -288,7 +464,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -302,9 +478,10 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CABANANet: Train the Trainers</h1>
+<h1 class="title">RIABIA + RLadies: Capacitación para la Docencia en Bioinformática</h1>
 </div>
 
 
@@ -314,14 +491,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Evelia Coss, Miguel Magaña y Domingo Martinez </p>
+             <p>Verónica Jimenez, Evelia Coss, Quetzally Medina, Ernestina Godoy, Nelly Sélem, Sofía Zorrilla </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 29, 2025</p>
+      <p class="date">September 21, 2025</p>
     </div>
   </div>
   
@@ -329,12 +506,25 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="figures/cabananet_logo.png" class="img-fluid"></p>
+
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 49.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="logos/Logo_Textoprincipal.png" class="img-fluid quarto-figure quarto-figure-left figure-img" width="219"></p>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 51.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><img src="logos/rladies.jpeg" class="img-fluid quarto-figure quarto-figure-right figure-img" width="228"></p>
+</figure>
+</div>
 </div>
 </div>
 </div>
@@ -342,7 +532,7 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="unnumbered">Información general</h1>
 <ul>
 <li><div class="tabset-margin-container"></div><div class="panel-tabset" data-group="globalInfo">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Sobre el curso 📌</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Requisitos previos</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Agenda 📆</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Comité organizador</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">Sobre el curso 📌</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Requisitos previos</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Agenda 📆</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Comité organizador</a></li></ul>
 <div class="tab-content" data-group="globalInfo">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>Durante el curso, utilizaremos una variedad de recursos, que incluyen materiales prácticos y teóricos para el desarrollo de habilidades de enseñanza en bioinformática. Entre los principales materiales se encuentran los proporcionados por <a href="https://www.metadocencia.org/curso/entrenamiento-instructores/">MetaDocencia y CABANAnet</a>, <a href="https://carpentries.github.io/instructor-training/">The Capentries</a> y <a href="https://education.rstudio.com/trainers/#info">Rstudio Education</a>.</p>
@@ -351,29 +541,41 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Duración del curso:</strong> 16 horas (8 horas diarias)</p></li>
 <li><p><strong>Sede:</strong> Laboratorio Internacional de Investigación sobre el Genoma Humano (LIIGH-UNAM), Campus Juriquilla, Querétaro.</p></li>
 </ul>
-<h4 id="instructores" class="anchored"><strong>Instructores:</strong></h4>
+<h4 id="instructoras-certificadas-con-the-carpentries" class="anchored"><strong>Instructoras certificadas con The Carpentries:</strong></h4>
 <ul>
-<li><strong>Evelia Coss</strong>&nbsp;- Postdoctoral LIIGH-UNAM, VieRnes de Bioinformática en el LIIGH-UNAM, RSG México y Rladies Morelia. Instructora certificada de Carpentries.&nbsp; <a href="https://eveliacoss.github.io/">Web page</a>, <strong>ecoss@liigh.unam.mx</strong></li>
-<li><strong>Miguel Angel Magaña Lemus -</strong> Tecnico CCM-UNAM, Instructor certificado de Carpentries, <strong>miguel@matmor.unam.mx</strong></li>
-<li><strong>Domingo Martinez -</strong> Postdoctoral LIIGH-UNAM, Profesor de Asignatura ENES-UNAM, <strong>ldmv82@gmail.com</strong></li>
+<li><strong>M.C. Verónica Jiménez Jacinto -</strong> RLadies Cuernavaca; Coordinadora del comité de entrenamiento de la Red Iberoamericana de Prospectiva de IA para Biociencias y Biotecnología. <strong>veronica.jimenez@ibt.unam.mx</strong></li>
+<li><strong>Dra. Ernestina Godoy Lozano</strong> - Jefa del Departamento de Bioinformática en Enfermedades Infecciosas del CISEI, INSP; Instructora y Trainer certificada de The Carpentries; RLadies Cuernavaca. <strong>tinagodoy@gmail.com</strong></li>
+<li><strong>Dra. Evelia Coss</strong> - Profesora de asignatura de la ENES-Juriquilla UNAM, VieRnes de Bioinformática, RSG México y Rladies Morelia. <a href="https://eveliacoss.github.io/">Web page</a>, <strong>ecossnav@gmail.com</strong></li>
+<li><strong>cDra. Quetzally Medina Velázquez -</strong> Estudiante de doctorado en la carrera de Ciencias Biomédicas por la UNAM (INCMNSZ); Presidenta de la A.C. Comunidad de Científicas Mexicanas; Rladies Morelia. <strong>quetzally.medina.velazquez@gmail.com</strong></li>
+<li><strong>Dra. Nelly Sélem Mojica</strong> - Profesora investigadora en el Centro de Ciencias Matemáticas UNAM Morelia; RLadies Morelia; RSG México; ISCB-Wikipedia. <strong>nselem84@gmail.com</strong></li>
+<li><strong>cDra. Sofía Zorrilla Azcué</strong> - Estudiante de doctorado en el Instituto de Biología de la UNAM y Kew Royal Botanic; profesora de asignatura en Ciencias Ambientales en la ENES Morelia; RLadies Morelia. <a href="https://github.com/sofiazorrilla">Web page</a>; <strong>sofia.zorrilla95@gmail.com</strong></li>
 </ul>
-<p>Ayudantes:</p>
-<ul>
-<li><strong>Johanna Castelán</strong> - RSG México y Rladies Morelia&nbsp;</li>
-<li><strong>Marisol Navarro</strong> - RSG México</li>
-</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="flyer/4.png" class="img-fluid figure-img"></p>
+<figcaption>Flyer creado por Karla Leslie Matías Valdez.</figcaption>
+</figure>
+</div>
 <h4 id="descripción" class="anchored"><strong>Descripción</strong></h4>
-<p>El evento CABANAnet: Entrenamiento para Instructores está diseñado para capacitar a los <strong>futuros instructores en el uso de la red CABANAnet</strong>, un recurso clave para la enseñanza de bioinformática y herramientas computacionales en la ciencia. A través de este entrenamiento, los participantes aprenderán a utilizar la plataforma, explorar sus características y métodos pedagógicos, y desarrollar habilidades para enseñar a otros de manera efectiva, promoviendo un aprendizaje inclusivo y accesible en el ámbito de la bioinformática.</p>
+<p>Este curso de formación de instructoras/es está diseñado para preparar a personas interesadas en convertirse en instructores tipo Carpentries. Sin embargo, gran parte de nuestro plan de estudios se centra en principios educativos que pueden aplicarse en una amplia variedad de contextos. También damos la bienvenida a las/os participantes que simplemente desean mejorar sus habilidades docentes.</p>
 <h4 id="objetivo" class="anchored"><strong>Objetivo</strong></h4>
-<p>Capacitar a los participantes en el uso y enseñanza de CABANAnet, brindándoles las herramientas necesarias para <strong>impartir formación efectiva y promover el aprendizaje interactivo en bioinformática</strong>, asegurando la transferencia de conocimientos y el fortalecimiento de la red de instructores.</p>
-<p>Este entrenamiento proporcionará:</p>
+<p>Elevar la calidad de los talleres y cursos impartidos por los miembros de RIABIA.</p>
+<p>El entrenamiento de instructores tiene los siguientes objetivos específicos para los participantes:</p>
 <ul>
-<li><p>Orientación sobre técnicas generales de capacitación y el uso adecuado de métodos pedagógicos, centrados en las necesidades de los participantes, junto con consejos prácticos para garantizar una capacitación exitosa.</p></li>
-<li><p>Un marco para el diseño curricular efectivo y su posterior desarrollo, que permitirá a los futuros instructores crear y adaptar cursos alineados con las necesidades de su alumnado.</p></li>
-<li><p>Oportunidades para practicar la entrega de capacitación virtual, fomentando la interacción y aprendizaje a distancia de manera efectiva.</p></li>
+<li>Introducir a los participantes en las prácticas docentes basadas en evidencia.</li>
+<li>Enseñar cómo crear un ambiente positivo para los alumnos en cualquier taller.</li>
+<li>Brindar oportunidades para practicar y desarrollar sus habilidades de enseñanza.</li>
+<li>Brindar una introducción al código en vivo para la enseñanza de bioinformática y herramientas computacionales en la ciencia.</li>
 </ul>
+<p>Debido a que tenemos un tiempo limitado, algunas cosas están más allá del alcance de esta capacitación. No estaremos aprendiendo:</p>
+<ul>
+<li>Cómo programar en R o Python, usar Git o SQL, o cualquiera de los otros temas que se enseñan en <a href="https://datacarpentry.org/">Data Carpentry</a>, <a href="https://librarycarpentry.org/">Library Carpentry</a>, o talleres de <a href="https://software-carpentry.org/">Software Carpentry</a>.</li>
+<li>Cómo crear sus propias lecciones desde cero (aunque tendrán un buen punto de partida en los principios que sustentan este tipo de trabajo si desean profundizar en el tema.).</li>
+<li>Cómo hacer análisis bioinformáticos o ejecutar pipelines de análisis genómico y transcriptómico.</li>
+</ul>
+<p>Los eventos de formación de instructores son prácticos en todo momento: las lecciones breves se alternan con ejercicios prácticos individuales y en grupo, incluidas sesiones de enseñanza práctica.</p>
 <h4 id="enfoque-de-la-audiencia" class="anchored"><strong>Enfoque de la audiencia</strong></h4>
-<p>Este entrenamiento está orientado a personas con un fuerte <strong>interés en la docencia</strong>, especialmente aquellas que buscan fortalecer sus habilidades para enseñar <strong>bioinformática</strong>.&nbsp;</p>
+<p>Instructores con experiencia en la enseñanza de programación para científicos, análisis bioinformáticos, ciencias de datos o cualquier otro tema, en el que deseen mejorar sus habilidades docentes.</p>
 <h2 id="citar-y-reutilizar-el-material-del-curso" class="anchored" data-anchor-id="información-general">Citar y reutilizar el material del curso</h2>
 <p>Los datos del curso se pueden reutilizar y adaptar libremente con la debida atribución. Todos los datos de los cursos de estos repositorios están sujetos a la licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
 </div>
@@ -388,216 +590,188 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <p><strong>Dia 1</strong></p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
-<col style="width: 79%">
+<col style="width: 55%">
 <col style="width: 18%">
+<col style="width: 24%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Tema</th>
 <th style="text-align: center;">Tiempo</th>
+<th>Instructora</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Martes 29 de abril (9:00 - 17:00)</strong></td>
+<td><strong>Lunes 21 de septiembre (9:00 - 18:00)</strong></td>
 <td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="even">
-<td>🔷 <strong>Sección 1 - (9:00 - 12:30 h)</strong></td>
+<td>🔷 <strong>Sección 1 - (9:00 - 11:30 h)</strong></td>
 <td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><ul>
-<li>Introducción y recapitulación</li>
+<li>Bienvenida e introducción</li>
 </ul></td>
+<td style="text-align: center;">2h 30 min</td>
+<td>Quetzally Medina</td>
+</tr>
+<tr class="even">
+<td>☕ <em>break (11:30 - 12:00) ☕</em></td>
 <td style="text-align: center;">30 min</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Definiendo tu audiencia y tus resultados esperados</li>
-</ul></td>
-<td style="text-align: center;">40 min</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><ul>
-<li>Simulación de entrenamiento 1 (en grupos)</li>
-</ul></td>
-<td style="text-align: center;">20 min</td>
-</tr>
-<tr class="even">
-<td>☕ <em>Coffee break (10:30 - 11:00) ☕</em></td>
-<td style="text-align: center;">30 min</td>
-</tr>
-<tr class="odd">
-<td>🔷&nbsp; <strong>Sección</strong> <strong>2 - (11:00-15:00 h)</strong></td>
+<td>🔷 <strong>Sección</strong> <strong>2 - (12:00-14:30 h)</strong></td>
 <td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><em>🍕 Comida (12:30 - 13:30 h) 🍕</em></td>
+<td><ul>
+<li>Modelos mentales y carga cognitiva</li>
+</ul></td>
+<td style="text-align: center;">2h 30 min</td>
+<td>Ernestina Godoy</td>
+</tr>
+<tr class="odd">
+<td><em>🍕 Comida (14:30 - 15:30 h) 🍕</em></td>
 <td style="text-align: center;">1 h</td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li>Modelos mentales</li>
-</ul></td>
-<td style="text-align: center;">30 min</td>
+<td></td>
 </tr>
 <tr class="even">
-<td><ul>
-<li>Carga cognitiva</li>
-</ul></td>
-<td style="text-align: center;">30 min</td>
-</tr>
-<tr class="odd">
-<td>🔷&nbsp; <strong>Sección</strong> <strong>3 - (15:00-17:00 h)</strong></td>
+<td>🔷 <strong>Sección</strong> <strong>3 - (15:30-18:00 h)</strong></td>
 <td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Memoria</li>
-</ul></td>
-<td style="text-align: center;">30 min</td>
-</tr>
-<tr class="odd">
-<td>☕ <em>Coffee break (15:30 - 16:00) ☕</em></td>
-<td style="text-align: center;">30 min</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Evaluación y feedback</li>
-</ul></td>
-<td style="text-align: center;">30 min</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><ul>
-<li>Principios de FAIR</li>
+<li>Memoria y otros principios</li>
 </ul></td>
-<td style="text-align: center;">30 min</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Preparación día 2</li>
-</ul></td>
-<td style="text-align: center;">30 min</td>
+<td style="text-align: center;">2h 30 min</td>
+<td>Verónica Jiménez</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Dia 2</strong></p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
-<col style="width: 79%">
+<col style="width: 59%">
 <col style="width: 18%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Tema</th>
 <th style="text-align: center;">Tiempo</th>
+<th>Instructora</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Martes 30 de abril (9:00 - 16:00)</strong></td>
+<td><strong>Miércoles 23 de septiembre (9:00 - 18:00)</strong></td>
 <td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="even">
-<td>🔷 <strong>Sección 4 - (9:00 - 10:30 h)</strong></td>
+<td>🔷 <strong>Sección 4 - (9:00 - 11:30 h)</strong></td>
 <td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><ul>
-<li>Introducción y recapitulación</li>
+<li>Enseñar en línea y planificación de cursos</li>
 </ul></td>
-<td style="text-align: center;">30 min</td>
+<td style="text-align: center;">2h 30 min</td>
+<td>Evelia Coss</td>
 </tr>
 <tr class="even">
-<td><ul>
-<li>Planificación de cursos</li>
-</ul></td>
-<td style="text-align: center;">40 min</td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li>Definiendo tu audiencia y tus resultados esperados</li>
-</ul></td>
-<td style="text-align: center;">20 min</td>
-</tr>
-<tr class="even">
-<td>☕ <em>Coffee break (10:30 - 11:00) ☕</em></td>
+<td>☕ <em>break (11:30 - 12:00) ☕</em></td>
 <td style="text-align: center;">30 min</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>🔷&nbsp; <strong>Sección</strong> <strong>5 - (11:00-13:30 h)</strong></td>
+<td>🔷 <strong>Sección</strong> <strong>5 - (12:00-14:30 h)</strong></td>
 <td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><ul>
-<li>Enseñar en línea</li>
+<li>Audiencia y simulación de entrenamiento</li>
 </ul></td>
-<td style="text-align: center;">30 min</td>
+<td style="text-align: center;">2h 30 min</td>
+<td>Nelly Sélem</td>
 </tr>
 <tr class="odd">
-<td><ul>
-<li>Simulación de entrenamiento 1 (en grupos)</li>
-</ul></td>
-<td style="text-align: center;">30 min</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Programación en vivo</li>
-</ul></td>
-<td style="text-align: center;">30 min</td>
-</tr>
-<tr class="odd">
-<td><em>🍕 Comida (12:30 - 13:30 h) 🍕</em></td>
+<td><em>🍕 Comida (14:30 - 15:30 h) 🍕</em></td>
 <td style="text-align: center;">1 h</td>
+<td></td>
 </tr>
 <tr class="even">
-<td>🔷&nbsp; <strong>Sección 6 - (13:30 - 16:00 h)</strong></td>
+<td>🔷 <strong>Sección 6 - (15:30-18:00 h)</strong></td>
 <td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><ul>
-<li>Buen entrenamiento y mal entrenamiento</li>
+<li>Programación en vivo y entrenamientos</li>
 </ul></td>
-<td style="text-align: center;">30 min</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Simulación de entrenamiento 2 (en grupos)</li>
-</ul></td>
-<td style="text-align: center;">30 min</td>
-</tr>
-<tr class="odd">
-<td>Discusión sobre entrenamiento de prueba</td>
-<td style="text-align: center;">30 min</td>
-</tr>
-<tr class="even">
-<td>Conclusiones y explicación de proceso de checkout</td>
-<td style="text-align: center;">30 min</td>
-</tr>
-<tr class="odd">
-<td>☕ <em>Coffee break (15:30 - 16:00) ☕</em></td>
-<td style="text-align: center;">30 min</td>
+<td style="text-align: center;">2h 30 min</td>
+<td>Sofía Zorrilla</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>Este evento se encuentra organizado por la <strong>Red Iberoamericana de Prospectiva en AI para Biociencia y Botecnología (RIABIA);</strong> <strong>RLadies Cuernavaca</strong> y <strong>RLadies Morelia.</strong></p>
 <ul>
-<li><strong>Rebeca Campos</strong> - Profesora Investigadora, Universidad de Costa Rica. Coordinadora CABANAnet.</li>
-<li><strong>Selene Fernandez Valverde</strong> - Profesora Investigadora, UNSW SYDNEY NSW 2052 AUSTRALIA. Coordinadora CABANAnet.</li>
-<li><strong>Nelly Selem</strong> - Profesora Investigadora, Centro de Ciencias Matemáticas (CCM- UNAM)</li>
-<li><strong>Evelia Lorena Coss Navarrete</strong> - Posdoctoral, LIIGH-UNAM.</li>
-<li><strong>Marisol Navarro</strong> - RSG México y Rladies Morelia&nbsp;</li>
-<li><strong>Johanna Castelán -</strong> RSG México.</li>
-<li><strong>Maria Avila -</strong> Profesora Investigadora y Coordinadora, LIIGH-UNAM.</li>
-<li><strong>Alejandra Medina Rivera -</strong> Profesora Investigadora, LIIGH-UNAM.</li>
-<li><strong>Iliana B. Martínez Hernández -</strong> Delegada Administrativa. LIIGH-UNAM.</li>
-<li><strong>Jair Santiago Garcia Sotelo -</strong> Encargado del Area de Bioinformática, LIIGH-UNAM.</li>
-<li><strong>Eglee Lomelin de Anda</strong> - Asistente academica, LIIGH-UNAM.</li>
+<li><strong>Nelly Selem</strong> - RLadies Morelia; Centro de Ciencias Matemáticas (CCM- UNAM)</li>
+<li><strong>Evelia Lorena Coss Navarrete</strong> - ENES-Juriquilla UNAM, VieRnes de Bioinformática, RSG México y Rladies Morelia.</li>
+<li><strong>Verónica Jiménez Jacinto -</strong> RLadies Cuernavaca; RIABIA.</li>
+<li><strong>Ernestina Godoy Lozano</strong> - Departamento de Bioinformática en Enfermedades Infecciosas del CISEI, INSP; RLadies Cuernavaca.</li>
+<li><strong>Quetzally Medina Velázquez -</strong> INCMNSZ; A.C. Comunidad de Científicas Mexicanas; Rladies Morelia.</li>
+<li><strong>Sofía Zorrilla Azcué</strong> - Instituto de Biología de la UNAM y Kew Royal Botanic; ENES Morelia; RLadies Morelia.</li>
+<li><strong>Karla Leslie Matías Valdez</strong> - Instituto Nacional de Salud Pública/México; karla.matias@insp.mx.</li>
+<li><strong>Mayra del Carmen Fragoso Medina</strong> - Rladies Morelia; mcfragoso@cieco.unam.mx</li>
 </ul>
+<h4 id="patrocinadores" class="anchored"><strong>Patrocinadores</strong></h4>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 25.1%;justify-content: center;">
+<p><img src="logos/Logo_Sin_fondo.png" class="img-fluid" width="157"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 36.3%;justify-content: center;">
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="logos/INSP_CISEI_DBEI.png" class="img-fluid quarto-figure quarto-figure-left figure-img" width="227"></p>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 38.6%;justify-content: center;">
+<p><img src="logos/logo_ibt.png" class="img-fluid" width="241"></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 55.4%;justify-content: center;">
+<p><img src="logos/logo_lnatcg.png" class="img-fluid" width="315"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 23.0%;justify-content: center;">
+<p><img src="logos/logoINCMNSZ.png" class="img-fluid" width="131"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 21.6%;justify-content: center;">
+<p><img src="logos/RLadiesCuernavaca.png" class="img-fluid" width="123"></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="logos/rladiesmorelia.jpeg" class="img-fluid" width="232"></p>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div></li>
@@ -608,158 +782,71 @@ ul.task-list li input[type="checkbox"] {
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
     }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
         }
       }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
       return false;
     }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  let localAlternateSentinel = 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
     }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
@@ -767,204 +854,357 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
       return codeEl.innerText;
     }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn) {
-    const config = {
-      allowHTML: true,
-      content: contentFn,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start'
-    };
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/rladiesmx\.netlify\.app\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
       });
     }
-  }
-});
-</script>
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link">
+      <a href="./intro.html" class="pagination-link" aria-label="Dinámica de trabajo">
         <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Dinámica de trabajo</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 
