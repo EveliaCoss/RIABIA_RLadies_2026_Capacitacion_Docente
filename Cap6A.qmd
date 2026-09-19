@@ -1,64 +1,7 @@
 # Programación en vivo
 
-> Instructor: Miguel Angel Magaña
+> Instructora: 
 
-![](presentaciones/Dia1_Codificación_vivo.pdf){fig-align="center" width="600" height="400"}
+<object data="presentaciones/python-cheatsheet.pdf" type="application/pdf" width="100%" height="700px">
 
-::: callout-note
-# Resumen
-
-**Preguntas**
-
--   ¿Por qué enseñamos utilizando codificación en vivo participativa?
-
-**Objetivos**
-
--   Explicar las ventajas y limitaciones de la codificación en vivo participativa.
--   Resumir las principales prácticas recomendadas y los errores a evitar en la codificación en vivo participativa.
--   Demostrar codificación en vivo participativa.
-:::
-
-Uno de los pilares de la enseñanza en **The Carpentries** es la **codificación en vivo**: los instructores no utilizan diapositivas para enseñar programación, sino que trabajan a través del material de la lección, escribiendo el código o las instrucciones en tiempo real, mientras los participantes del taller siguen el proceso paso a paso. Esta sección explica cómo funciona esta metodología, por qué la utilizamos y proporciona consejos generales para realizar una presentación efectiva de codificación en vivo participativa. Terminaremos esta sección practicando nosotros mismos y brindando retroalimentación a nuestros compañeros.
-
-## ¿Por qué utilizar codificación en vivo participativa?
-
-No usamos diapositivas en nuestras lecciones. En su lugar, los instructores conectan su computadora portátil al proyector y trabajan el contenido de la lección escribiendo el código, reformateando datos y explicando en voz alta a medida que avanzan. Esto se denomina **codificación en vivo**. Sin embargo, el instructor no codifica de forma aislada. Es crucial que los estudiantes sean fuertemente incentivados a **codificar junto** con el instructor. A esta práctica de tener al instructor codificando en vivo y a los estudiantes siguiendo el proceso de codificación se le conoce como **codificación en vivo participativa** o, de manera más informal, **sesiones de codificar en vivo**.
-
-::: callout-warning
-## Anticipar el impacto
-
-Enumera algunas ventajas y desafíos de la codificación en vivo participativa desde el punto de vista tanto de los estudiantes como de los instructores en el Etherpad.
-
-Esta discusión debería tomar aproximadamente 5 minutos.
-:::
-
-## Algunas ventajas son:
-
--   Ver cómo se escribe un programa es más atractivo que ver a alguien pasar diapositivas que presentan fragmentos de ese mismo código.
--   Permite que los instructores respondan mejor a preguntas de "¿qué pasaría si...?". Mientras que una presentación de diapositivas es como una vía de tren, la codificación en vivo participativa permite a los instructores desviarse y seguir los intereses de sus estudiantes.
--   Transferencia lateral de conocimiento: la codificación en vivo facilita la transferencia de [conocimiento tácito](https://jonudell.net/udell/2006-09-19-screencasting-of-tacit-knowledge.html); las personas aprenden más de lo que nos damos cuenta simplemente observando cómo trabajan los instructores.
--   Obliga al instructor a ir más despacio: si tiene que escribir el programa a medida que avanza, sólo podrá ir el doble de rápido que sus estudiantes, en lugar de diez veces más rápido como podría hacerlo con diapositivas.
--   Los estudiantes ven los errores de los instructores y cómo diagnosticar y corregir esos errores. Los principiantes pasarán la mayor parte de su tiempo haciendo esto, pero normalmente no se enseña en los libros de texto.
-
-## Algunos desafíos son:
-
--   Requiere que los instructores improvisen cuando algo sale mal o cuando los estudiantes hacen preguntas que no están directamente abordadas en el texto de la lección.
--   Puede ser difícil para los estudiantes escuchar y escribir al mismo tiempo, debido al efecto de atención dividida que mencionamos anteriormente. Por eso es muy importante que los instructores **expliquen primero lo que van a hacer**, luego vayan diciendo en voz alta lo que están escribiendo, y finalmente expliquen nuevamente lo que hicieron.
--   Puede requerir algo de práctica para que los instructores se acostumbren a pensar en voz alta mientras codifican frente a una audiencia.
-
-## Codificación en vivo y retroalimentación
-
-La codificación en vivo se adapta muy bien al modelo de práctica-retroalimentación que hemos estado discutiendo, ya que proporciona a los estudiantes oportunidades continuas de práctica (cada vez que escriben una línea de código) y retroalimentación continua (su código funciona o falla mostrando un mensaje de error). Sin embargo, es importante tener en cuenta que la retroalimentación no es útil si no se puede entender. Muchos mensajes de error son confusos y no están escritos pensando en principiantes. Continúa utilizando las estrategias de encuadre de errores que aprendimos anteriormente para asegurarte de que esta retroalimentación sea útil para los estudiantes.
-
--   **Depuración como habilidad** Aunque los estudiantes puedan asociar de manera negativa los "errores" o los "errores tipográficos", puede ser útil replantear la resolución de problemas como un proceso rutinario de encontrar y corregir "bugs".
-
--   Aprender a interpretar mensajes de error es un paso importante en el desarrollo de habilidades de depuración.
-
--   **Errores intencionales vs accidentales** Puede ser útil demostrar intencionalmente errores comunes y sus respectivos mensajes de error. Alternativamente, los errores cometidos por el instructor o por los estudiantes pueden ofrecer oportunidades valiosas para aprender y para enmarcar los errores de manera positiva.
-
-## Créditos
-
-**Créditos y atribución:**\
-Este contenido ha sido traducido y adaptado del material original de [The Carpentries Instructor Training](https://carpentries.github.io/instructor-training/17-live.html), bajo la licencia [Creative Commons Atribución 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-
-The Carpentries promueve la enseñanza inclusiva y basada en evidencia de habilidades fundamentales de computación y ciencia de datos. Puedes consultar el material original en inglés en su [sitio web oficial](https://carpentries.org/).
+</object>

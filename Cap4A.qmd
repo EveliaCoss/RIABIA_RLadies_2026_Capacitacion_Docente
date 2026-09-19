@@ -1,28 +1,9 @@
 # Introducción y recapitulación
 
-> Instructora: **Evelia Coss**
+> Instructora: 
 
-![](presentaciones/Dia2_P1_recap_ECoss.pdf){fig-align="center" width="600" height="400"}
-
-## **Recapitulación**
-
-Feedback hacia los instructores:
-
-![](figures/feedback_profesores.jpg){fig-align="center"}
-
-::: {.callout-tip icon="false"}
-## Tus retos del dia de hoy son:
-
-1.  Generar una sesión breve y cambiarla usando el feedback recibido.
-
-2.  Ampliar una idea de sesión a una sesión más larga
-
-3.  Considerar los aspectos prácticos de llevar a cabo esta sesión: diseñar una lista de verificación para el capacitador
-:::
-
-## **Aplicar una mentalidad de crecimiento a la enseñanza**
-
-> Los grandes maestros no nacen geniales.
->
-> \
-> Se hacen geniales a través de la práctica reflexiva.\
+<iframe 
+  src="presentaciones/python-cheatsheet.pdf" 
+  width="100%" 
+  height="700px">
+</iframe>

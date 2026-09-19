@@ -16,12 +16,9 @@ book:
   - part: "**Sección 2** - Modelos mentales y carga Cognitiva"
     chapters:
     - Cap2A.qmd
-    - Cap2B.qmd
   - part: "**Sección 3** - Memoria y otros principios"
     chapters:
     - Cap3A.qmd
-    - Cap3B.qmd
-    - Cap3C.qmd
   - part: "**Sección 4** - Enseñar en línea y Planificación de cursos"
     chapters:
     - Cap5A.qmd
@@ -33,8 +30,6 @@ book:
   - part: "**Sección 6** - Programación en vivo y entrenamientos"
     chapters:
     - Cap6A.qmd
-    - Cap6B.qmd
-    - Cap6C.qmd
   # Information
   site-url: https://rladiesmx.netlify.app/ # 📍URL del sitio completo Rladies Mexico
   repo-url: https://github.com/EveliaCoss/RIABIA_RLadies_2026_Capacitacion_Docente # link de Github

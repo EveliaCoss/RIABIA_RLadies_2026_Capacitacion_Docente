@@ -1,5 +1,9 @@
 # Modelos mentales
 
-> Instructor: Domingo Martinez
+> Instructora: 
 
-![](presentaciones/Dia1_Modelos_Mentales.pdf){fig-align="center" width="600" height="400"}
+<iframe 
+  src="presentaciones/python-cheatsheet.pdf" 
+  width="100%" 
+  height="700px">
+</iframe>

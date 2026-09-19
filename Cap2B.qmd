@@ -1,5 +1,0 @@
-# Carga cognitiva
-
-> Instructor: Domingo Martinez
-
-![](presentaciones/Dia1_Cargacognitiva.pdf){fig-align="center" width="600" height="400"}

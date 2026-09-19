@@ -1,5 +1,9 @@
 # ¿Cómo aprenden las personas?
 
-> Instructor: Domingo Martinez
+> Instructora: 
 
-![](presentaciones/Dia1_ComoAprenden_personas.pdf){fig-align="center" width="600" height="400"}
+<iframe 
+  src="presentaciones/python-cheatsheet.pdf" 
+  width="100%" 
+  height="700px">
+</iframe>

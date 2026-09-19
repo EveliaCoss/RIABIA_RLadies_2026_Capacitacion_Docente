@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "RIABIA + RLadies: Capacitación para la Docencia en Bioinformática",
     "section": "",
-    "text": "Información general\n\n\nSobre el curso 📌Requisitos previosAgenda 📆Comité organizador\n\n\nDurante el curso, utilizaremos una variedad de recursos, que incluyen materiales prácticos y teóricos para el desarrollo de habilidades de enseñanza en bioinformática. Entre los principales materiales se encuentran los proporcionados por MetaDocencia y CABANAnet, The Capentries y Rstudio Education.\n\nFechas: 21 y 23 de septiembre de 2026\nDuración del curso: 16 horas (8 horas diarias)\nHorario: 9 a 18 h (Hora de la Ciudad de México)\nModalidad: Virtual\n\nInstructoras certificadas con The Carpentries:\n\nM.C. Verónica Jiménez Jacinto - RLadies Cuernavaca; Coordinadora del comité de entrenamiento de la Red Iberoamericana de Prospectiva de IA para Biociencias y Biotecnología. veronica.jimenez@ibt.unam.mx\nDra. Ernestina Godoy Lozano - Jefa del Departamento de Bioinformática en Enfermedades Infecciosas del CISEI, INSP; Instructora y Trainer certificada de The Carpentries; RLadies Cuernavaca. tinagodoy@gmail.com\nDra. Evelia Coss - Profesora de asignatura de la ENES-Juriquilla UNAM, VieRnes de Bioinformática, RSG México y Rladies Morelia. Web page, ecossnav@gmail.com\ncDra. Quetzally Medina Velázquez - Estudiante de doctorado en la carrera de Ciencias Biomédicas por la UNAM (INCMNSZ); Presidenta de la A.C. Comunidad de Científicas Mexicanas; Rladies Morelia. quetzally.medina.velazquez@gmail.com\nDra. Nelly Sélem Mojica - Profesora investigadora en el Centro de Ciencias Matemáticas UNAM Morelia; RLadies Morelia; RSG México; ISCB-Wikipedia. nselem84@gmail.com\ncDra. Sofía Zorrilla Azcué - Estudiante de doctorado en el Instituto de Biología de la UNAM y Kew Royal Botanic; profesora de asignatura en Ciencias Ambientales en la ENES Morelia; RLadies Morelia. Web page; sofia.zorrilla95@gmail.com\n\n\n\n\nFlyer creado por Karla Leslie Matías Valdez.\n\n\nDescripción\nEste curso de formación de instructoras/es está diseñado para preparar a personas interesadas en convertirse en instructores tipo Carpentries. Sin embargo, gran parte de nuestro plan de estudios se centra en principios educativos que pueden aplicarse en una amplia variedad de contextos. También damos la bienvenida a las/os participantes que simplemente desean mejorar sus habilidades docentes.\nObjetivo\nElevar la calidad de los talleres y cursos impartidos por los miembros de RIABIA.\nEl entrenamiento de instructores tiene los siguientes objetivos específicos para los participantes:\n\nIntroducir a los participantes en las prácticas docentes basadas en evidencia.\nEnseñar cómo crear un ambiente positivo para los alumnos en cualquier taller.\nBrindar oportunidades para practicar y desarrollar sus habilidades de enseñanza.\nBrindar una introducción al código en vivo para la enseñanza de bioinformática y herramientas computacionales en la ciencia.\n\nDebido a que tenemos un tiempo limitado, algunas cosas están más allá del alcance de esta capacitación. No estaremos aprendiendo:\n\nCómo programar en R o Python, usar Git o SQL, o cualquiera de los otros temas que se enseñan en Data Carpentry, Library Carpentry, o talleres de Software Carpentry.\nCómo crear sus propias lecciones desde cero (aunque tendrán un buen punto de partida en los principios que sustentan este tipo de trabajo si desean profundizar en el tema.).\nCómo hacer análisis bioinformáticos o ejecutar pipelines de análisis genómico y transcriptómico.\n\nLos eventos de formación de instructores son prácticos en todo momento: las lecciones breves se alternan con ejercicios prácticos individuales y en grupo, incluidas sesiones de enseñanza práctica.\nEnfoque de la audiencia\nInstructores con experiencia en la enseñanza de programación para científicos, análisis bioinformáticos, ciencias de datos o cualquier otro tema, en el que deseen mejorar sus habilidades docentes.\nCitar y reutilizar el material del curso\nLos datos del curso se pueden reutilizar y adaptar libremente con la debida atribución. Todos los datos de los cursos de estos repositorios están sujetos a la licencia Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).\n\n\nSe recomienda a los participantes que:\n\nEstén cursando un posgrado o tengan varios años de experiencia en investigación o educación universitaria.\nSe encuentren trabajando en una institución latinoamericana y se prevea que permanezcan en ella al menos durante el próximo año.\nTengan un gran interés en la enseñanza y hayan participado previamente en programas de formación.\nHayan identificado una necesidad o brecha en la cual pueden ofrecer capacitación y ya hayan reflexionado sobre el tipo de formación que desean brindar.\n\n\n\nDia 1\n\n\n\n\n\n\n\n\nTema\nTiempo\nInstructora\n\n\n\n\nLunes 21 de septiembre (9:00 - 18:00)\n\n\n\n\n🔷 Sección 1 - (9:00 - 11:30 h)\n\n\n\n\n\nBienvenida e introducción\n\n2h 30 min\nQuetzally Medina\n\n\n☕ break (11:30 - 12:00) ☕\n30 min\n\n\n\n🔷 Sección 2 - (12:00-14:30 h)\n\n\n\n\n\nModelos mentales y carga cognitiva\n\n2h 30 min\nErnestina Godoy\n\n\n🍕 Comida (14:30 - 15:30 h) 🍕\n1 h\n\n\n\n🔷 Sección 3 - (15:30-18:00 h)\n\n\n\n\n\nMemoria y otros principios\n\n2h 30 min\nVerónica Jiménez\n\n\n\nDia 2\n\n\n\n\n\n\n\n\nTema\nTiempo\nInstructora\n\n\n\n\nMiércoles 23 de septiembre (9:00 - 18:00)\n\n\n\n\n🔷 Sección 4 - (9:00 - 11:30 h)\n\n\n\n\n\nEnseñar en línea y planificación de cursos\n\n2h 30 min\nEvelia Coss\n\n\n☕ break (11:30 - 12:00) ☕\n30 min\n\n\n\n🔷 Sección 5 - (12:00-14:30 h)\n\n\n\n\n\nAudiencia y simulación de entrenamiento\n\n2h 30 min\nNelly Sélem\n\n\n🍕 Comida (14:30 - 15:30 h) 🍕\n1 h\n\n\n\n🔷 Sección 6 - (15:30-18:00 h)\n\n\n\n\n\nProgramación en vivo y entrenamientos\n\n2h 30 min\nSofía Zorrilla\n\n\n\n\n\nEste evento se encuentra organizado por la Red Iberoamericana de Prospectiva en AI para Biociencia y Botecnología (RIABIA); RLadies Cuernavaca y RLadies Morelia.\n\nNelly Selem - RLadies Morelia; Centro de Ciencias Matemáticas (CCM- UNAM)\nEvelia Lorena Coss Navarrete - ENES-Juriquilla UNAM, VieRnes de Bioinformática, RSG México y Rladies Morelia.\nVerónica Jiménez Jacinto - RLadies Cuernavaca; RIABIA.\nErnestina Godoy Lozano - Departamento de Bioinformática en Enfermedades Infecciosas del CISEI, INSP; RLadies Cuernavaca.\nQuetzally Medina Velázquez - INCMNSZ; A.C. Comunidad de Científicas Mexicanas; Rladies Morelia.\nSofía Zorrilla Azcué - Instituto de Biología de la UNAM y Kew Royal Botanic; ENES Morelia; RLadies Morelia.\nKarla Leslie Matías Valdez - Instituto Nacional de Salud Pública/México; karla.matias@insp.mx.\nMayra del Carmen Fragoso Medina - Rladies Morelia; mcfragoso@cieco.unam.mx\n\nPatrocinadores",
+    "text": "Información general\n\n\nSobre el curso 📌Requisitos previosAgenda 📆Comité organizador\n\n\nDurante el curso, utilizaremos una variedad de recursos, que incluyen materiales prácticos y teóricos para el desarrollo de habilidades de enseñanza en bioinformática. Entre los principales materiales se encuentran los proporcionados por MetaDocencia y CABANAnet, The Capentries y Rstudio Education.\n\nFechas: 21 y 23 de septiembre de 2026\nDuración del curso: 16 horas (8 horas diarias)\nHorario: 9 a 18 h (Hora de la Ciudad de México)\nModalidad: Virtual\n\nInstructoras certificadas con The Carpentries:\n\nM.C. Verónica Jiménez Jacinto - RLadies Cuernavaca; Coordinadora del comité de entrenamiento de la Red Iberoamericana de Prospectiva de IA para Biociencias y Biotecnología. veronica.jimenez@ibt.unam.mx\nDra. Ernestina Godoy Lozano - Jefa del Departamento de Bioinformática en Enfermedades Infecciosas del CISEI, INSP; Instructora y Trainer certificada de The Carpentries; RLadies Cuernavaca. tinagodoy@gmail.com\nDra. Evelia Coss - Profesora de asignatura de la ENES-Juriquilla UNAM, VieRnes de Bioinformática, RSG México y Rladies Morelia. Web page, ecossnav@gmail.com\ncDra. Quetzally Medina Velázquez - Estudiante de doctorado en la carrera de Ciencias Biomédicas por la UNAM (INCMNSZ); Presidenta de la A.C. Comunidad de Científicas Mexicanas; Rladies Morelia. quetzally.medina.velazquez@gmail.com\nDra. Nelly Sélem Mojica - Profesora investigadora en el Centro de Ciencias Matemáticas UNAM Morelia; RLadies Morelia; RSG México; ISCB-Wikipedia. nselem84@gmail.com\ncDra. Sofía Zorrilla Azcué - Estudiante de doctorado en el Instituto de Biología de la UNAM y Kew Royal Botanic; profesora de asignatura en Ciencias Ambientales en la ENES Morelia; RLadies Morelia. Web page; sofia.zorrilla95@gmail.com\n\n\n\n\nFlyer creado por Karla Leslie Matías Valdez.\n\n\nDescripción\nEste curso de formación de instructoras/es está diseñado para preparar a personas interesadas en convertirse en instructores tipo Carpentries. Sin embargo, gran parte de nuestro plan de estudios se centra en principios educativos que pueden aplicarse en una amplia variedad de contextos. También damos la bienvenida a las/os participantes que simplemente desean mejorar sus habilidades docentes.\nObjetivo\nElevar la calidad de los talleres y cursos impartidos por los miembros de RIABIA.\nEl entrenamiento de instructores tiene los siguientes objetivos específicos para los participantes:\n\nIntroducir a los participantes en las prácticas docentes basadas en evidencia.\nEnseñar cómo crear un ambiente positivo para los alumnos en cualquier taller.\nBrindar oportunidades para practicar y desarrollar sus habilidades de enseñanza.\nBrindar una introducción al código en vivo para la enseñanza de bioinformática y herramientas computacionales en la ciencia.\n\nDebido a que tenemos un tiempo limitado, algunas cosas están más allá del alcance de esta capacitación. No estaremos aprendiendo:\n\nCómo programar en R o Python, usar Git o SQL, o cualquiera de los otros temas que se enseñan en Data Carpentry, Library Carpentry, o talleres de Software Carpentry.\nCómo crear sus propias lecciones desde cero (aunque tendrán un buen punto de partida en los principios que sustentan este tipo de trabajo si desean profundizar en el tema.).\nCómo hacer análisis bioinformáticos o ejecutar pipelines de análisis genómico y transcriptómico.\n\nLos eventos de formación de instructores son prácticos en todo momento: las lecciones breves se alternan con ejercicios prácticos individuales y en grupo, incluidas sesiones de enseñanza práctica.\nEnfoque de la audiencia\nInstructores con experiencia en la enseñanza de programación para científicos, análisis bioinformáticos, ciencias de datos o cualquier otro tema, en el que deseen mejorar sus habilidades docentes.\nCitar y reutilizar el material del curso\nLos datos del curso se pueden reutilizar y adaptar libremente con la debida atribución. Todos los datos de los cursos de estos repositorios están sujetos a la licencia Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).\n\n\nSe recomienda a los participantes que:\n\nEstén cursando un posgrado o tengan varios años de experiencia en investigación o educación universitaria.\nSe encuentren trabajando en una institución latinoamericana y se prevea que permanezcan en ella al menos durante el próximo año.\nTengan un gran interés en la enseñanza y hayan participado previamente en programas de formación.\nHayan identificado una necesidad o brecha en la cual pueden ofrecer capacitación y ya hayan reflexionado sobre el tipo de formación que desean brindar.\n\n\n\nDia 1\n\n\n\nTema\nTiempo\nInstructora\n\n\n\n\nLunes 21 de septiembre (9:00 - 18:00)\n\n\n\n\n🔷 Sección 1 - (9:00 - 11:30 h)\n\n\n\n\n\nBienvenida e introducción\n\n2h 30 min\nQuetzally Medina\n\n\n☕ break (11:30 - 12:00) ☕\n30 min\n\n\n\n🔷 Sección 2 - (12:00-14:30 h)\n\n\n\n\n\nModelos mentales y carga cognitiva\n\n2h 30 min\nErnestina Godoy\n\n\n🍕 Comida (14:30 - 15:30 h) 🍕\n1 h\n\n\n\n🔷 Sección 3 - (15:30-18:00 h)\n\n\n\n\n\nMemoria y otros principios\n\n2h 30 min\nVerónica Jiménez\n\n\nCuestionario de evaluación Día 1\n\n\n\n\n\nDia 2\n\n\n\nTema\nTiempo\nInstructora\n\n\n\n\nMiércoles 23 de septiembre (9:00 - 18:00)\n\n\n\n\n🔷 Sección 4 - (9:00 - 11:30 h)\n\n\n\n\n\nEnseñar en línea y planificación de cursos\n\n2h 30 min\nEvelia Coss\n\n\n☕ break (11:30 - 12:00) ☕\n30 min\n\n\n\n🔷 Sección 5 - (12:00-14:30 h)\n\n\n\n\n\nAudiencia y simulación de entrenamiento\n\n2h 30 min\nNelly Sélem\n\n\n🍕 Comida (14:30 - 15:30 h) 🍕\n1 h\n\n\n\n🔷 Sección 6 - (15:30-18:00 h)\n\n\n\n\n\nProgramación en vivo y entrenamientos\n\n2h 30 min\nSofía Zorrilla\n\n\nCuestionario de evaluación Día 2\n\n\n\n\n\n\n\nEste evento se encuentra organizado por la Red Iberoamericana de Prospectiva en AI para Biociencia y Botecnología (RIABIA); RLadies Cuernavaca y RLadies Morelia.\n\nNelly Selem - RLadies Morelia; Centro de Ciencias Matemáticas (CCM- UNAM)\nEvelia Lorena Coss Navarrete - ENES-Juriquilla UNAM, VieRnes de Bioinformática, RSG México y Rladies Morelia.\nVerónica Jiménez Jacinto - RLadies Cuernavaca; RIABIA.\nErnestina Godoy Lozano - Departamento de Bioinformática en Enfermedades Infecciosas del CISEI, INSP; RLadies Cuernavaca.\nQuetzally Medina Velázquez - INCMNSZ; A.C. Comunidad de Científicas Mexicanas; Rladies Morelia.\nSofía Zorrilla Azcué - Instituto de Biología de la UNAM y Kew Royal Botanic; ENES Morelia; RLadies Morelia.\nKarla Leslie Matías Valdez - Instituto Nacional de Salud Pública/México; karla.matias@insp.mx.\nMayra del Carmen Fragoso Medina - Rladies Morelia; mcfragoso@cieco.unam.mx\n\nPatrocinadores",
     "crumbs": [
       "Información general"
     ]
@@ -14,29 +14,7 @@
     "href": "intro.html",
     "title": "1  Dinámica de trabajo",
     "section": "",
-    "text": "1.0.1 Usaremos el Etherpad\nEl programa “Train the Trainers” de CABANANet está diseñado para capacitar a personas que quieren convertirse en instructores certificados, enseñando talleres de ciencia de datos y programación reproducible.\nvamos a realizar algunos ejercicios prácticos. Les pedimos que por favor tengan abierto el enlace del Etherpad correspondiente a nuestro entrenamiento. Ahí vamos a:\n⚠️ Recuerden que el Etherpad es una herramienta colaborativa en tiempo real, así que por favor no borren lo que otras personas hayan escrito. Si necesitan espacio, simplemente agreguen una nueva línea o usen su nombre para identificar sus notas.",
-    "crumbs": [
-      "**Sección 1** - Bienvenida e Introducción",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dinámica de trabajo</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html#resumen",
-    "href": "intro.html#resumen",
-    "title": "1  Dinámica de trabajo",
-    "section": "4.1 Resumen",
-    "text": "4.1 Resumen\n\n\n\nIntroducción de Enseñar tecnología en comunidad",
-    "crumbs": [
-      "**Sección 1** - Bienvenida e Introducción",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dinámica de trabajo</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html#referencias",
-    "href": "intro.html#referencias",
-    "title": "1  Dinámica de trabajo",
-    "section": "4.2 Referencias",
-    "text": "4.2 Referencias\n\nInstructor Trainer Training - informacion, presentacion Dia1\nCABANAnet + MetaDocencia: Curso Train the Trainer (Entrenamiento de Instructores) -pagina web, presentacion\nEnseñar tecnología en comunidad",
+    "text": "Instructora: Quetzally",
     "crumbs": [
       "**Sección 1** - Bienvenida e Introducción",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dinámica de trabajo</span>"
@@ -47,7 +25,7 @@
     "href": "Cap1.html",
     "title": "2  ¿Cómo aprenden las personas?",
     "section": "",
-    "text": "Instructor: Domingo Martinez",
+    "text": "Instructora:",
     "crumbs": [
       "**Sección 1** - Bienvenida e Introducción",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>¿Cómo aprenden las personas?</span>"
@@ -58,549 +36,230 @@
     "href": "Cap2A.html",
     "title": "3  Modelos mentales",
     "section": "",
-    "text": "Instructor: Domingo Martinez",
+    "text": "Instructora:",
     "crumbs": [
       "**Sección 2** - Modelos mentales y carga Cognitiva",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelos mentales</span>"
     ]
   },
   {
-    "objectID": "Cap2B.html",
-    "href": "Cap2B.html",
-    "title": "4  Carga cognitiva",
-    "section": "",
-    "text": "Instructor: Domingo Martinez",
-    "crumbs": [
-      "**Sección 2** - Modelos mentales y carga Cognitiva",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Carga cognitiva</span>"
-    ]
-  },
-  {
     "objectID": "Cap3A.html",
     "href": "Cap3A.html",
-    "title": "5  Memoria y Carga Cognitiva",
+    "title": "4  Memoria y Carga Cognitiva",
     "section": "",
-    "text": "5.1 Tipos de Memoria\nAprenderemos más sobre la memoria humana, específicamente sobre cómo eliminar la “carga” innecesaria para facilitar el aprendizaje.\nAprender implica usar la memoria. Para entender mejor cómo aprendemos, podemos pensar en la memoria humana como si tuviera dos niveles. El primero es la memoria a largo plazo, donde guardamos información que permanece con nosotros, como los nombres de nuestros amigos o la dirección de nuestra casa. Esta memoria tiene una capacidad prácticamente ilimitada (a menos que haya alguna enfermedad o lesión, nunca se llena), pero acceder a esa información puede tomar tiempo.\nEl segundo nivel es la memoria a corto plazo, también conocida como memoria de trabajo. Es la que usamos cuando estamos pensando en algo en el momento. Es mucho más rápida que la memoria a largo plazo, pero también es mucho más limitada. En 1956, el psicólogo George Miller propuso que, en promedio, un adulto puede mantener entre 5 y 9 elementos en su memoria de corto plazo durante unos segundos antes de que empiecen a olvidarse. Por eso los números de teléfono suelen tener entre 7 y 8 dígitos: cuando todavía se usaban teléfonos con disco, esa era la cantidad máxima de números que una persona podía recordar mientras giraba el disco para marcar.\nEstudios más recientes indican que esa capacidad podría ser incluso menor. Aunque varía de persona a persona y dependiendo de la situación, lo que sí sabemos es que la memoria de corto plazo tiene un límite. Esto es muy importante en la enseñanza. Si le damos al estudiante demasiada información de golpe, sin permitirle practicar y aplicar lo que va aprendiendo (lo cual ayuda a pasar esa información a la memoria de largo plazo), es muy probable que no retenga mucho. Por eso es tan importante ir con calma, presentar la información poco a poco y usar evaluaciones formativas frecuentes.\nLa mayoría de las personas descubrirán que solo recuerdan entre 5 y 7 palabras. Quienes recuerdan menos pueden estar experimentando distracción, fatiga o (como veremos más adelante) una “sobrecarga cognitiva”. Quienes recuerdan más, casi siempre están utilizando alguna estrategia de memorización (memory management strategy).",
+    "text": "Instructora: Verónica Jimenez",
     "crumbs": [
       "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Memoria y Carga Cognitiva</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3A.html#tipos-de-memoria",
-    "href": "Cap3A.html#tipos-de-memoria",
-    "title": "5  Memoria y Carga Cognitiva",
-    "section": "",
-    "text": "WarningPon a prueba tu memoria de trabajo\n\n\n\nRealiza una prueba rápida de memoria de trabajo en: https://miku.github.io/activememory/\n¿Cuál fue tu resultado? Si te sientes cómodo, comparte tu respuesta.\nSi no puedes realizar esta actividad, pídele a tu instructor que implemente la versión análoga de la prueba.\nEste ejercicio debería tomar aproximadamente 5 minutos.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Memoria y Carga Cognitiva</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3A.html#estrategias-para-la-gestión-de-la-memoria",
-    "href": "Cap3A.html#estrategias-para-la-gestión-de-la-memoria",
-    "title": "5  Memoria y Carga Cognitiva",
-    "section": "5.2 Estrategias para la gestión de la memoria",
-    "text": "5.2 Estrategias para la gestión de la memoria\nDado que la memoria a corto plazo es limitada, podemos apoyar a los estudiantes evitando saturarla con demasiadas piezas de información aisladas. ¿Significa esto que debemos enseñar menos conceptos? ¡Sí! Sin embargo, esa no es nuestra única herramienta. También podemos ayudar proporcionando estrategias y ejercicios que les permitan:\n\nSostener más elementos al mismo tiempo en la memoria de corto plazo.\nComenzar a consolidar algunos conceptos, trasladándolos a la memoria de largo plazo.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Memoria y Carga Cognitiva</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3A.html#agrupamiento-chunking",
-    "href": "Cap3A.html#agrupamiento-chunking",
-    "title": "5  Memoria y Carga Cognitiva",
-    "section": "5.3 Agrupamiento (Chunking)",
-    "text": "5.3 Agrupamiento (Chunking)\nNuestra mente puede almacenar una mayor cantidad de hechos en la memoria a corto plazo al crear agrupamientos o relaciones entre elementos separados, lo cual permite recordarlos como una sola unidad.\nPor ejemplo, la mayoría de las personas recuerda una palabra que lee como una unidad completa (“gato”), en lugar de como una secuencia de letras (“g-a-t-o”).\nDe forma similar, el patrón formado por cinco puntos en una carta o dado se recuerda como un conjunto, y no como cinco piezas de información independientes.\n\n\n\n\n\n\nWarningMejorando la memoria a corto plazo con el agrupamiento\n\n\n\nRepite el ejercicio de memoria que hiciste anteriormente, pero esta vez intenta formar pequeñas historias, frases o una imagen mental a partir de las palabras que veas.\nEscribe en el Etherpad cuántas palabras lograste recordar. ¿Cómo se compara este resultado con tu primer intento?\nEste ejercicio debería tomar aproximadamente 5 minutos.\n\n\n\n\n\n\n\n\nFigure 5.1: Ejemplo de agrupamiento en la memoria. Fuente: The Carpentries Instructor Training\n\n\n\nAsociar conceptos reduce la cantidad de elementos individuales que tu memoria de corto plazo necesita manejar, lo que te permite retener más información al mismo tiempo.\nProbablemente te has encontrado con otras estrategias mnemotécnicas, incluidas algunas que se basan en imaginar una “asociación espacial” para cada elemento, como en el caso del “palacio de la memoria” Method of Loci. Aunque es una técnica algo distinta al agrupamiento, también es un ejemplo de cómo establecer conexiones entre ideas puede facilitar su recuerdo.\n\n5.3.1 Usar la evaluación formativa para apoyar la consolidación de la memoria\nLa evaluación formativa es una herramienta clave para ayudar a los estudiantes a consolidar su comprensión y comenzar a transferir ideas a la memoria a largo plazo. ¿Por qué? Porque activa el cerebro al recuperar información recién aprendida y aplicarla de forma activa para resolver un problema. Esto no solo refuerza lo aprendido, sino que también ayuda a establecer conexiones útiles con otros conocimientos.\nLas limitaciones de la memoria a corto plazo son una de las razones por las que las evaluaciones deben ser frecuentes: esta memoria es limitada no solo en cantidad, sino también en duración. Si se espera demasiado tiempo antes de aplicar una evaluación formativa, parte de la información necesaria para completar la tarea puede haberse olvidado. ¡Esta ventana de tiempo puede ser muy corta, especialmente si se está enseñando mucho contenido a la vez! Asegúrate de recordar a los estudiantes los conceptos previos importantes para cada tarea. Cuando ya no sea necesario hacerlo, eso es una señal de que tus esfuerzos por apoyar la consolidación de la memoria han dado resultado.\n\n\n5.3.2 Trabajo en grupo\nLa elaboración —explicar lo que se está haciendo— favorece el traspaso del conocimiento a la memoria de largo plazo. ¡Por eso enseñar es una de las mejores formas de aprender! Al principio, el trabajo en grupo puede parecer incómodo y consumir tiempo en un taller, pero muchos estudiantes lo califican como uno de los aspectos más valiosos tanto en términos de aprendizaje como de disfrute. Además, es una excelente oportunidad para que los ayudantes circulen, resuelvan dudas o propicien discusiones más avanzadas.\n\n\n5.3.3 Espacios para la reflexión\nLa reflexión es otra herramienta que ayuda a los estudiantes a repasar lo aprendido, fortalecer las conexiones entre ideas y consolidar la memoria a largo plazo. Al igual que la evaluación formativa, pedir retroalimentación a los estudiantes puede cumplir una doble función: por un lado, te brinda información útil; por otro, impulsa a los estudiantes a reflexionar sobre lo que han aprendido. Hablaremos más sobre métodos específicos en la siguiente sección. También puede ser útil hacer pausas para que los estudiantes escriban notas resumen o repasen lo aprendido en distintos momentos del taller.\n\n\n5.3.4 Limita los conceptos\nAl igual que con la idea de “ir despacio”, es importante limitar la cantidad de conceptos que se introducen en una lección. ¡Y eso puede ser difícil! Al revisar una clase que vas a impartir, seguramente encontrarás conceptos relacionados muy útiles y podrías sentirte tentado a incluirlos. Planear tu clase con un mapa conceptual puede ayudarte no solo a identificar los conceptos clave y sus relaciones, sino también a detectar cuándo estás intentando enseñar demasiadas cosas al mismo tiempo.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Memoria y Carga Cognitiva</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3A.html#la-atención-es-un-recurso-limitado-carga-cognitiva",
-    "href": "Cap3A.html#la-atención-es-un-recurso-limitado-carga-cognitiva",
-    "title": "5  Memoria y Carga Cognitiva",
-    "section": "5.4 La atención es un recurso limitado: carga cognitiva",
-    "text": "5.4 La atención es un recurso limitado: carga cognitiva\nLa memoria no es el único recurso cognitivo que tiene límites. La atención también es limitada, lo que puede restringir la cantidad de información que ingresa a la memoria de corto plazo desde un inicio, y además interferir con los intentos de consolidación. Aunque muchas personas creen que pueden hacer varias cosas a la vez (multitask), la realidad es que la atención solo puede enfocarse en una cosa a la vez. Cuando se agregan tareas que requieren atención, lo que realmente ocurre es que se alterna entre ellas, lo cual reduce la eficiencia y el rendimiento en todas.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Memoria y Carga Cognitiva</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3A.html#la-teoría-de-la-carga-cognitiva",
-    "href": "Cap3A.html#la-teoría-de-la-carga-cognitiva",
-    "title": "5  Memoria y Carga Cognitiva",
-    "section": "5.5 La teoría de la carga cognitiva",
-    "text": "5.5 La teoría de la carga cognitiva\nExisten diferentes teorías sobre la carga cognitiva. En una de ellas, Sweller plantea que, al aprender, las personas deben atender tres tipos de aspectos:\n\nLas cosas que necesitan pensar para poder realizar una tarea (carga intrínseca).\nEl esfuerzo mental necesario para conectar la tarea con conocimientos previos y nuevos (carga germana).\nLas distracciones u otros esfuerzos mentales que no están directamente relacionados con la tarea ni con el aprendizaje (carga extrínseca).\n\n¡La carga cognitiva no siempre es algo negativo! Hay mucha evidencia que sugiere que cierta dificultad es deseable y puede mejorar el aprendizaje. Sin embargo, existen límites. Gestionar todos los tipos de carga cognitiva —con especial atención a la carga extrínseca— puede ayudar a evitar que una sobrecarga cognitiva impida el aprendizaje por completo.\nUna forma efectiva de manejar la carga cognitiva, especialmente cuando las tareas se vuelven más complejas, es mediante la práctica guiada: crear una estructura que enfoque de manera precisa la atención en habilidades y conocimientos específicos, avanzando por etapas, con retroalimentación en cada paso antes de pasar a una nueva característica o contenido.\n\n\n\n\n\n\nWarning¿Es la práctica guiada una forma de sobreproteger al estudiante?\n\n\n\nUna alternativa a la práctica guiada es el enfoque de mínima orientación, donde a los estudiantes se les proporcionan materiales básicos (por ejemplo, un texto o una referencia) y se les pide que exploren y aprendan a resolver problemas por su cuenta. Este tipo de enfoque es común en estrategias educativas como el constructivismo, aprendizaje por descubrimiento, aprendizaje basado en problemas, aprendizaje experiencial o aprendizaje por indagación.\n¡Estas estrategias tienen valor! De hecho, pueden funcionar muy bien con estudiantes avanzados. Sin embargo, con frecuencia no son efectivas con estudiantes principiantes. Un artículo clave de Kirschner et al. analiza la popularidad y los resultados inconsistentes de estos métodos desde la perspectiva de la teoría de la carga cognitiva, para explicar por qué a menudo fallan.\nAlgunas personas sienten que la práctica guiada equivale a “tomar de la mano” al estudiante, insinuando que quienes reciben apoyo nunca aprenderán a ser independientes. Esta visión no considera la carga cognitiva adicional que enfrentan los principiantes al formar nuevas conexiones mientras aprenden una tarea. **La instrucción con mínima orientación exige que los estudiantes dominen al mismo tiempo tanto los contenidos del área como las estrategias de búsqueda y resolución de problemas.* Fomentar la creatividad y la autonomía lleva tiempo. La mínima orientación puede sonar atractiva, pero eso no significa que siempre funcione.\n\n\n\n\n\n\n\n\nNoteMapeo de la carga cognitiva\n\n\n\nRevisa el material del plan de estudios que elegiste para preparar esta capacitación y concéntrate en un paso o tarea específica que se espera que los estudiantes completen.\n\n¿Qué conceptos necesitarán comprender y mantener en su memoria de corto plazo para poder completar esta tarea?\nDibuja un mapa conceptual que conecte esos conceptos. ¿Qué relaciones necesitan comprender los estudiantes para poder establecer esas conexiones?\n¿Cuántos de estos conceptos y relaciones se han introducido desde el paso o ejercicio anterior?\n\nTrabaja con un compañero o en grupos pequeños para discutir lo que encontraste. ¿Crees que tus estudiantes están en riesgo de sufrir una sobrecarga cognitiva en este punto del taller? ¿Por qué sí o por qué no?\nEste ejercicio debería tomar aproximadamente 15 minutos.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Memoria y Carga Cognitiva</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3A.html#gestión-de-la-atención-en-tu-taller",
-    "href": "Cap3A.html#gestión-de-la-atención-en-tu-taller",
-    "title": "5  Memoria y Carga Cognitiva",
-    "section": "5.6 Gestión de la atención en tu taller",
-    "text": "5.6 Gestión de la atención en tu taller\nLas lecciones de The Carpentries/Metadocencia incluyen pequeñas tareas organizadas de forma incremental, diseñadas para ser completadas en conjunto mediante codificación en vivo participativa (una técnica que abordaremos con más detalle más adelante en esta capacitación).\nLas decisiones que tomes como instructor pueden aumentar o reducir la carga cognitiva de los estudiantes. Apoyar la consolidación de la memoria puede reducir esa carga más adelante en el taller, ya que disminuye el esfuerzo necesario para recordar material previamente olvidado. También puedes minimizar la carga cognitiva al elegir evaluaciones formativas con un enfoque claro y al considerar posibles distracciones en lo que muestras durante la instrucción.\n\n5.6.1 Uso de evaluaciones formativas para gestionar la memoria\nExisten muchos tipos de ejercicios que pueden ayudar a enfocar la atención y evitar la sobrecarga cognitiva. Preguntas de opción múltiple bien dirigidas pueden cumplir este propósito. Aquí tienes algunas otras estrategias que podrías considerar:\n\nEjemplos atenuados: bloques de código con partes específicas omitidas, como si fueran ejercicios de llenar los espacios.\nProblemas de Parson: fragmentos de código desordenado que los estudiantes deben seleccionar y reorganizar correctamente.\nEtiquetado de diagramas o flujogramas: pueden presentarse también como ejercicios de completar espacios.\n\n⚠️ Cuidado con las evaluaciones demasiado abiertas, ya que es muy probable que provoquen sobrecarga cognitiva en estudiantes principiantes. Tal vez tú mismo la experimentaste al crear un mapa conceptual; por esta razón, no recomendamos ese tipo de actividad para estudiantes que están comenzando. También es riesgoso hacer preguntas que exijan a los estudiantes recordar y al mismo tiempo sintetizar o razonar con información nueva. Si pruebas una pregunta y el salón queda en completo silencio, puede que necesites un rompehielos, una reexplicación… o simplemente una pregunta más concreta y enfocada.\n\n\n5.6.2 Qué mostrar durante la enseñanza\nThe Carpentries proporciona planes de estudio con buen formato para la enseñanza. Sin embargo, es posible que hayas notado que durante esta capacitación no has visto mucho (o nada) del plan de estudios del entrenamiento para instructores mientras participabas como estudiante. En la mayoría de los casos, no recomendamos mostrar directamente los materiales del plan de estudios de The Carpentries a los estudiantes durante la clase.\nEl entorno visual de un taller debe centrarse exactamente en lo que se está enseñando y debe reflejar, lo más fielmente posible, lo que el instructor está diciendo. Esto se debe a que tener que interpretar información contradictoria o irrelevante desde distintos sentidos aumenta la carga cognitiva. Este fenómeno se conoce como el efecto de atención dividida, y describe el esfuerzo mental necesario para unir información que proviene de diferentes fuentes (visual, auditiva, textual). El aprendizaje es más efectivo cuando lo que se ve, se escucha y se dice coincide y hay distracciones mínimas.\nPor esta razón, en los talleres de The Carpentries pedimos a los instructores que digan en voz alta los comandos mientras los escriben en pantalla, involucrando a los estudiantes mediante la codificación en vivo participativa.\nAlgo que sí puede ser útil agregar a tu entorno visual (que por lo demás debe ser minimalista) es un glosario de comandos y términos clave. Esto puede mantenerse en una pizarra o rotafolios por parte de un ayudante, y ayudará a los estudiantes a recuperar rápidamente conceptos que podrían haber olvidado temporalmente en su memoria de corto plazo. En talleres en línea, mostrar un glosario en pantalla suele ser poco práctico debido al espacio limitado. Sin embargo, se puede mantener en un documento colaborativo (como un Etherpad o Google Doc), disponible para consulta cuando se necesite.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Memoria y Carga Cognitiva</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3A.html#resumen",
-    "href": "Cap3A.html#resumen",
-    "title": "5  Memoria y Carga Cognitiva",
-    "section": "5.7 Resumen",
-    "text": "5.7 Resumen\nEl proceso de aprendizaje está limitado por las capacidades de la memoria de corto plazo. Para que la información nueva se transfiera a la memoria de largo plazo, debe aplicarse de manera activa, pero las actividades que exigen demasiado de la memoria de corto plazo pueden generar sobrecarga cognitiva y afectar fácilmente la motivación del estudiante.\nLas herramientas didácticas que amplían la capacidad de la memoria de corto plazo mediante el aumento de la conectividad entre conceptos nuevos (como el agrupamiento) pueden mejorar los resultados en ejercicios posteriores que requieren más carga de memoria.\nLas evaluaciones formativas, cuando se aplican con frecuencia, ayudan a los estudiantes a practicar con el contenido nuevo antes de que sea olvidado o reemplazado. Los ejemplos atenuados y otros tipos de práctica guiada reducen la carga sobre la memoria de corto plazo, y además proporcionan un contexto útil que refuerza la conexión entre ideas para futuras actividades. Con el tiempo, estos apoyos pueden retirarse gradualmente, como parte de un proceso de andamiaje.\nCualquier cosa que puedas hacer para: a) reconocer los límites de la memoria de corto plazo, y b) apoyar a tus estudiantes en cómo trabajar con ellos, mejorará la efectividad de tu enseñanza.\n\n\n\n\n\n\nNotePuntos clave\n\n\n\n\nLa mayoría de los adultos solo puede retener unos pocos elementos en su memoria de corto plazo durante unos segundos antes de olvidarlos.\nLas cosas que se ven juntas se recuerdan (o se malinterpretan) como un solo bloque o agrupamiento.\nLa carga cognitiva debe gestionarse mediante práctica guiada para facilitar el aprendizaje y evitar la sobrecarga.\nLas evaluaciones formativas pueden ayudar a consolidar el aprendizaje en la memoria de largo plazo.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Memoria y Carga Cognitiva</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3A.html#créditos",
-    "href": "Cap3A.html#créditos",
-    "title": "5  Memoria y Carga Cognitiva",
-    "section": "5.8 Créditos",
-    "text": "5.8 Créditos\nCréditos y atribución:\nEste contenido ha sido traducido y adaptado del material original de The Carpentries Instructor Training, bajo la licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0).\nThe Carpentries promueve la enseñanza inclusiva y basada en evidencia de habilidades fundamentales de computación y ciencia de datos. Puedes consultar el material original en inglés en su sitio web oficial.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Memoria y Carga Cognitiva</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3B.html",
-    "href": "Cap3B.html",
-    "title": "6  Evaluación y feedback",
-    "section": "",
-    "text": "6.1 Encuestas\nUsamos evaluación formativa de los estudiantes durante los talleres para ayudar a dar seguimiento a su progreso y ajustar nuestro enfoque de enseñanza según sea necesario. Pero la evaluación formativa no es solo para los estudiantes. Como discutiremos con más detalle más adelante, la enseñanza también es una habilidad que mejora con la práctica regular y la retroalimentación. Recopilamos retroalimentación de nuestros estudiantes en múltiples momentos del taller y en diferentes formas.\nLos estudiantes de Carpentries completan una encuesta antes de asistir y otra inmediatamente después de un taller. Estas encuestas incluyen preguntas que ayudan a los instructores a tener una idea de la experiencia previa y los antecedentes de sus participantes antes de que comience el taller. Usando esta información, los instructores pueden planificar cómo abordarán los materiales y qué nivel de ejercicios será probablemente el más adecuado para sus estudiantes.\nPuedes previsualizar las encuestas que tus estudiantes completarán en los siguientes enlaces:\nSi deseas tener una visión general de las preguntas incluidas en las encuestas sin tener que recorrer todas ellas, puedes previsualizarlas en formato de texto aquí:\nCuando el equipo de Administración de Talleres de The Carpentries configure las encuestas para tu taller, también te enviarán un enlace a un panel de resultados. ¡Ten cuidado de no compartir este enlace con tus estudiantes!\nThe Carpentries mantiene un panel de datos que muestra los resultados de encuestas de talleres anteriores, para que puedas tener una idea de qué esperar en tu propio taller.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Evaluación y feedback</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3B.html#encuestas",
-    "href": "Cap3B.html#encuestas",
-    "title": "6  Evaluación y feedback",
-    "section": "",
-    "text": "Encuesta previa al taller\nEncuesta posterior al taller\n\n\n\nEncuesta previa al taller (formato de texto)\nEncuesta posterior al taller (formato de texto)\n\n\n\n\n\n\n\n\n\nNoteAcceso a encuestas\n\n\n\nLos enlaces a las encuestas anteriores son solo para que puedas previsualizarlas como parte de la Capacitación de Instructores. Cuando estés impartiendo un taller, asegúrate de compartir los enlaces que se generen en el sitio web de tu taller. Hacer esto garantizará que recibas todos los resultados de las encuestas de los participantes de tu taller.\n\n\n\n\n\nEncuesta de Carpentries. Fuente: The Carpentries Instructor Training",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Evaluación y feedback</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3B.html#tarjetas-de-un-minuto",
-    "href": "Cap3B.html#tarjetas-de-un-minuto",
-    "title": "6  Evaluación y feedback",
-    "section": "6.2 Tarjetas de un Minuto",
-    "text": "6.2 Tarjetas de un Minuto\nAntes de cada descanso largo, por ejemplo el almuerzo o entre días de taller, pedimos a los estudiantes que completen tarjetas de un minuto para compartir retroalimentación anónima. En un taller presencial, notas adhesivas de papel funcionan como tarjetas de un minuto, usando dos colores diferentes: uno para comentarios positivos y otro para comentarios constructivos. En un taller en línea, esto puede hacerse utilizando una copia de nuestra plantilla de Tarjeta Virtual de un Minuto en Google Forms. Otros instrumentos también pueden funcionar, pero recomendamos asegurarnos de que la retroalimentación sea privada y anónima. Un tablero de notas públicas recibirá retroalimentación diferente (y menos útil).\nCualquiera que sea el método que uses, puedes personalizar las preguntas para obtener distintos tipos de retroalimentación en cada descanso.\nEjemplos de preguntas positivas:\n\nAlgo que te haya gustado de esta sección del taller\nLo más importante que aprendiste hoy\nUna nueva habilidad, comando o técnica que te gustaría usar\n\nEjemplos de preguntas constructivas:\n\nAlgo que no te haya gustado o que cambiarías de esta sección del taller\nAlgo que te haya resultado confuso o sobre lo que te gustaría recibir una aclaración\nUna pregunta que tengas\n\nDurante los descansos largos, los instructores revisan las tarjetas de un minuto y buscan patrones. Al inicio de cada medio día, los instructores toman unos minutos para abordar los temas que surgieron con mayor frecuencia ante toda la clase. El instructor que no está enseñando también puede escribir respuestas a las preguntas en el Etherpad.\n\n\n\n\n\n\nNoteSé explícito sobre el uso de la retroalimentación\n\n\n\nLos estudiantes son más propensos a dar retroalimentación útil si sienten que sus comentarios son tomados en serio. Dedicar unos minutos a hablar sobre la retroalimentación recibida y ser explícito acerca de los cambios que estás realizando a partir de esa retroalimentación motivará a los estudiantes a seguir proporcionando comentarios informativos a lo largo del taller.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Evaluación y feedback</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3B.html#one-up-one-down",
-    "href": "Cap3B.html#one-up-one-down",
-    "title": "6  Evaluación y feedback",
-    "section": "6.3 One-Up, One-Down",
-    "text": "6.3 One-Up, One-Down\nAdemás de las tarjetas de un minuto, también pedimos a los estudiantes que nos den retroalimentación al final de cada día utilizando una técnica llamada “uno arriba, uno abajo”. El instructor pide a los estudiantes que den alternativamente un punto positivo y un punto negativo sobre el día, sin repetir algo que ya se haya dicho. Este requisito obliga a las personas a decir cosas que de otro modo podrían no mencionar: una vez que se hayan dado todos los comentarios “seguros”, los participantes comenzarán a decir lo que realmente piensan.\nEl instructor anota la retroalimentación en el Etherpad o en un editor de texto, pero no comenta sobre los comentarios mientras los recopila. Luego, los instructores discuten esta retroalimentación y cómo planean actuar en consecuencia. Al igual que con las tarjetas de un minuto, sé explícito sobre cómo estás respondiendo a la retroalimentación de los estudiantes.\n\n\n\n\n\n\nTipDanos Tu Retroalimentación\n\n\n\nEscribe una cosa que hayas aprendido hasta ahora en esta capacitación que te haya resultado útil en una nota azul, y una pregunta que tengas sobre el material en una nota amarilla.\nNo pongas tu nombre en las notas: esta retroalimentación debe ser anónima.\nDeja tus notas en el montón junto a la puerta al salir a almorzar.\n\n\n\n\n\n\n\n\nNotePuntos Clave\n\n\n\n\nDa a tus estudiantes tiempo para completar la encuesta posterior al taller al final del mismo.\nTómate el tiempo para responder a la retroalimentación de tus estudiantes.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Evaluación y feedback</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3B.html#principios-de-fair-para-materiales-de-formación",
-    "href": "Cap3B.html#principios-de-fair-para-materiales-de-formación",
-    "title": "6  Evaluación y feedback",
-    "section": "6.4 Principios de FAIR para Materiales de Formación",
-    "text": "6.4 Principios de FAIR para Materiales de Formación\nLos principios FAIR buscan que los materiales educativos sean más accesibles, útiles y sostenibles a largo plazo. Cada letra representa un principio fundamental:\n\n\n\n\n\n\nNoteF – Findable (Encontrables)\n\n\n\n\nLos materiales deben ser fáciles de localizar para otros usuarios.\nSe recomienda usar metadatos claros (como título, autor, palabras clave, fecha) y depositarlos en repositorios accesibles públicamente.\nEjemplo: Publicar un curso en Zenodo con título descriptivo, resumen y etiquetas relevantes.\n\n\n\n\n\n\n\n\n\nNoteA – Accessible (Accesibles)\n\n\n\n\nLos materiales deben estar disponibles de manera abierta o con condiciones claras de acceso.\nSe deben usar formatos abiertos (como PDF, HTML, CSV) y evitar el uso de formatos propietarios que limiten su acceso.\nEjemplo: Compartir manuales en formato PDF accesible mediante un enlace público sin necesidad de registro.\n\n\n\n\n\n\n\n\n\nNoteI – Interoperable (Interoperables)\n\n\n\n\nLos materiales deben poder ser utilizados y combinados fácilmente en distintos sistemas o plataformas educativas.\nEs recomendable utilizar estándares abiertos y formatos ampliamente compatibles.\nEjemplo: Crear ejercicios en archivos .ipynb (Jupyter Notebooks) que puedan abrirse en diferentes entornos (Google Colab, VSCode, JupyterLab).\n\n\n\n\n\n\n\n\n\nNoteR – Reusable (Reutilizables)\n\n\n\n\nLos materiales deben poder ser adaptados, modificados y reutilizados en otros contextos educativos.\nSe debe incluir una licencia abierta (como Creative Commons) y documentación clara para su uso.\nEjemplo: Licenciar una colección de diapositivas con CC-BY, permitiendo su adaptación con la debida atribución.\n\n\n\nTen simple rules for making training materials FAIR\n\n\n\nRepresentación gráfica de los principios FAIR aplicados a materiales educativos.\n\n\nFuente:\nWilkinson, M. D., Dumontier, M., Aalbersberg, I. J., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. PLOS Computational Biology, 12(3), e1000457. https://doi.org/10.1371/journal.pcbi.1007854",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Evaluación y feedback</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3B.html#créditos",
-    "href": "Cap3B.html#créditos",
-    "title": "6  Evaluación y feedback",
-    "section": "7.1 Créditos",
-    "text": "7.1 Créditos\nCréditos y atribución:\nEste contenido ha sido traducido y adaptado del material original de The Carpentries Instructor Training, bajo la licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0).\nThe Carpentries promueve la enseñanza inclusiva y basada en evidencia de habilidades fundamentales de computación y ciencia de datos. Puedes consultar el material original en inglés en su sitio web oficial.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Evaluación y feedback</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3C.html",
-    "href": "Cap3C.html",
-    "title": "7  Preparación día 2",
-    "section": "",
-    "text": "7.1 Resumen\nEn la primera mitad de este taller nos hemos enfocado en comprender algunos hallazgos fundamentales de la investigación pedagógica sobre cómo funciona el proceso de aprendizaje y la importancia de crear un ambiente positivo en el aula.\nEn las siguientes partes del taller, continuaremos discutiendo cómo construir habilidades de enseñanza y habrá más oportunidades de práctica y retroalimentación.\nAdemás, exploraremos en mayor profundidad cómo operan The Carpentries para prepararlos en los aspectos logísticos de impartir un taller.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Preparación día 2</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3C.html#preparación-para-la-próxima-sesión",
-    "href": "Cap3C.html#preparación-para-la-próxima-sesión",
-    "title": "7  Preparación día 2",
-    "section": "7.2 Preparación para la próxima sesión",
-    "text": "7.2 Preparación para la próxima sesión\nPara prepararte, por favor:\n\nLee sobre talleres organizados centralmente y talleres autoorganizados, así como el contenido del manual sobre Teaching and Hosting Workshops — asegúrate de revisar los check lists asociados. Estas listas resumen preguntas frecuentes sobre cómo organizar y llevar a cabo talleres.\nPrepara un capítulo para los ejercicios de codificación en vivo.\nSi no lo has hecho aún, elige un capítulo de Software Carpentry, Data Carpentry o Library Carpentry, y léelo cuidadosamente.\nDurante las próximas sesiones, practicarás codificación en vivo/instrucción participativa durante 3 minutos.\nRecuerda: ¡las presentaciones imperfectas generan retroalimentación valiosa!\nSi necesitas sugerencias, considera:\n\nData Carpentry - Exploración de Datos con OpenRefine - Consultas Básicas en SQL - Trabajando con Datos en Python - Fechas como Datos en Excel - Explorando y Entendiendo Datos en R\nLibrary Carpentry - Trabajar con Archivos y Directorios en la Terminal Unix - Facetado y Filtrado en OpenRefine - Bucles For en Python\nSoftware Carpentry - Trabajar con Archivos y Directorios en la Terminal Unix - Seguimiento de Cambios en Git - Selección de Datos en SQL - Repetición de Acciones con Bucles en Python - Exploración de Data Frames en R\n\n\n\n\n\n\nTipRetroalimentación\n\n\n\n\nEl o los instructores solicitarán retroalimentación sobre el día en alguna forma.\n\nEsta actividad tomará alrededor de 5 minutos.\n\n\n\n\n\n\n\n\n\nNoteEjercicio de Reflexión\n\n\n\nAntes de finalizar el día, tómate 5 minutos para reflexionar sobre todo lo que hemos cubierto hasta ahora.\nEn una hoja de papel, escribe algo que capture lo que deseas recordar del día.\n(Los instructores no revisarán esto; es solo para ti).\nSi no sabes por dónde empezar, considera las siguientes opciones:\n\nDibuja un mapa conceptual conectando el material visto.\nDibuja una imagen o un cómic que represente uno de los conceptos del día.\nEscribe un esquema de los temas que cubrimos.\nEscribe un párrafo o una entrada de “diario” sobre tu experiencia en la capacitación hasta ahora.\nAnota una cosa que más te haya impactado.\nAnota un tema o aspecto que te gustaría aprender más a fondo.\n\nEsta actividad debería tomar alrededor de 10 minutos.\n\n\n\n\n\n\n\n\nNotePuntos Clave\n\n\n\n\nHasta ahora hemos aprendido sobre cómo aprenden las personas, cómo construir un ambiente positivo en el aula y cómo dar retroalimentación.\nEn las partes 3 y 4 abordaremos aspectos específicos de los talleres de The Carpentries y prácticas de enseñanza.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Preparación día 2</span>"
-    ]
-  },
-  {
-    "objectID": "Cap3C.html#créditos",
-    "href": "Cap3C.html#créditos",
-    "title": "7  Preparación día 2",
-    "section": "7.3 Créditos",
-    "text": "7.3 Créditos\nCréditos y atribución:\nEste contenido ha sido traducido y adaptado del material original de The Carpentries Instructor Training, bajo la licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0).\nThe Carpentries promueve la enseñanza inclusiva y basada en evidencia de habilidades fundamentales de computación y ciencia de datos. Puedes consultar el material original en inglés en su sitio web oficial.",
-    "crumbs": [
-      "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Preparación día 2</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Memoria y Carga Cognitiva</span>"
     ]
   },
   {
     "objectID": "Cap5A.html",
     "href": "Cap5A.html",
-    "title": "8  Enseñar en línea",
+    "title": "5  Enseñar en línea",
     "section": "",
-    "text": "8.1 Lista de verificación para sesiones en línea:\nEjemplo de un curso en linea:",
+    "text": "5.1 Lista de verificación para sesiones en línea:\nEjemplo de un curso en linea:",
     "crumbs": [
       "**Sección 4** - Enseñar en línea y Planificación de cursos",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Enseñar en línea</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Enseñar en línea</span>"
     ]
   },
   {
     "objectID": "Cap5A.html#lista-de-verificación-para-sesiones-en-línea",
     "href": "Cap5A.html#lista-de-verificación-para-sesiones-en-línea",
-    "title": "8  Enseñar en línea",
+    "title": "5  Enseñar en línea",
     "section": "",
-    "text": "Da un trocito de ti para tus participantes.\n\n\n🎥 Audio y video\n\nCámara encendida y enfocada correctamente.\nMicrófono encendido y funcionando.\nConfirmar con los participantes que te escuchan bien.\n\n\n\n8.1.1 🧑‍🏫 Dinámica con los participantes\n\n👋 Saluda y genera un ambiente cálido desde el inicio.🎨 Uso de materiales\n🗓️ Indica la agenda y tiempos estimados (cuánto dura, si habrá descansos).\n📌 Usa sus nombres al interactuar para hacerlo más personalizado.\n🙋‍♀️ Anima a los participantes a prender cámara si es posible (sin forzar).\n\n\n🖥️ Materiales y visibilidad\n\nTamaño de letra legible en presentaciones y demos en vivo.\nUsar fondo claro (preferentemente blanco) para código o documentos.\nEn RStudio, mantener el tema visual en modo claro (default) si estás enseñando.\n\n\n\n🔗 Pantalla compartida\n\nVerificar que estás compartiendo la pantalla correcta en Zoom o Meet.\nConfirmar con la audiencia que pueden ver bien lo que compartes.\n\n\n\n\n8.1.2 🎨 Uso de materiales\n\n🖼️ Incluye imágenes, diagramas y ejemplos reales para mantener el interés.\n🧭 Usa punteros o destaca elementos en la pantalla para guiar visualmente.\n🔄 Si das instrucciones, muéstralas por escrito además de decirlas en voz alta.\n\n\n\n8.1.3 🎯 Preparación técnica\n\n🔌 Ten un cable de red como respaldo si tu WiFi es inestable.\n🔋 Asegúrate de que tu computadora esté cargada o conectada a corriente.\n🔕 Silencia notificaciones de correo, WhatsApp y otras apps durante la sesión.\n\n\n\n8.1.4 ⏱️ Gestión del ritmo\n\n⏸️ Planifica pausas cada 60–90 minutos para descanso o preguntas.\n⏳ Marca el cambio entre secciones para que los alumnos sigan el hilo.\n🎥 Graba la sesión si es posible, para quienes no puedan asistir en vivo (pedir permiso a las asistentes antes de empezar a grabar o contar con su permiso previo).\n\n\n\n8.1.5 📬 Seguimiento y apoyo\n\n📁 Envía materiales antes o después de la sesión.\n📩 Deja un canal de comunicación abierto (correo, chat, foro).\n🧭 Ofrece indicaciones claras sobre qué hacer después de la sesión (actividad, lectura, entrega, etc.)",
+    "text": "Da un trocito de ti para tus participantes.\n\n\n🎥 Audio y video\n\nCámara encendida y enfocada correctamente.\nMicrófono encendido y funcionando.\nConfirmar con los participantes que te escuchan bien.\n\n\n\n5.1.1 🧑‍🏫 Dinámica con los participantes\n\n👋 Saluda y genera un ambiente cálido desde el inicio.🎨 Uso de materiales\n🗓️ Indica la agenda y tiempos estimados (cuánto dura, si habrá descansos).\n📌 Usa sus nombres al interactuar para hacerlo más personalizado.\n🙋‍♀️ Anima a los participantes a prender cámara si es posible (sin forzar).\n\n\n🖥️ Materiales y visibilidad\n\nTamaño de letra legible en presentaciones y demos en vivo.\nUsar fondo claro (preferentemente blanco) para código o documentos.\nEn RStudio, mantener el tema visual en modo claro (default) si estás enseñando.\n\n\n\n🔗 Pantalla compartida\n\nVerificar que estás compartiendo la pantalla correcta en Zoom o Meet.\nConfirmar con la audiencia que pueden ver bien lo que compartes.\n\n\n\n\n5.1.2 🎨 Uso de materiales\n\n🖼️ Incluye imágenes, diagramas y ejemplos reales para mantener el interés.\n🧭 Usa punteros o destaca elementos en la pantalla para guiar visualmente.\n🔄 Si das instrucciones, muéstralas por escrito además de decirlas en voz alta.\n\n\n\n5.1.3 🎯 Preparación técnica\n\n🔌 Ten un cable de red como respaldo si tu WiFi es inestable.\n🔋 Asegúrate de que tu computadora esté cargada o conectada a corriente.\n🔕 Silencia notificaciones de correo, WhatsApp y otras apps durante la sesión.\n\n\n\n5.1.4 ⏱️ Gestión del ritmo\n\n⏸️ Planifica pausas cada 60–90 minutos para descanso o preguntas.\n⏳ Marca el cambio entre secciones para que los alumnos sigan el hilo.\n🎥 Graba la sesión si es posible, para quienes no puedan asistir en vivo (pedir permiso a las asistentes antes de empezar a grabar o contar con su permiso previo).\n\n\n\n5.1.5 📬 Seguimiento y apoyo\n\n📁 Envía materiales antes o después de la sesión.\n📩 Deja un canal de comunicación abierto (correo, chat, foro).\n🧭 Ofrece indicaciones claras sobre qué hacer después de la sesión (actividad, lectura, entrega, etc.)",
     "crumbs": [
       "**Sección 4** - Enseñar en línea y Planificación de cursos",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Enseñar en línea</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Enseñar en línea</span>"
     ]
   },
   {
     "objectID": "Cap5B.html",
     "href": "Cap5B.html",
-    "title": "9  Simulación de entrenamiento 1 (en grupos)",
+    "title": "6  Simulación de entrenamiento 1 (en grupos)",
     "section": "",
     "text": "Instructora: Evelia Coss\n\n\n\n\n\n\n\nWarningPráctica de Enseñanza\n\n\n\n\nDivídanse en grupos de tres personas.\nAsignen roles, que irán rotando: presentador(a), responsable del tiempo y tomador(a) de notas.\nCada miembro del grupo debe enseñar 3 minutos de un episodio de la lección elegida utilizando codificación en vivo. Para este ejercicio, sus compañeros no codificarán al mismo tiempo. Antes de comenzar, describan brevemente qué van a enseñar y qué se ha aprendido previamente.\nAl terminar cada presentación, cada miembro del grupo debe compartir retroalimentación (comenzando por sí mismo) utilizando la rúbrica 2x2. El responsable del tiempo debe limitar la discusión de retroalimentación a aproximadamente 1 minuto por persona, lo cual podría dejar tiempo al final para una discusión general.\nEl tomador(a) de notas debe registrar la retroalimentación en el Etherpad.\nCambien de roles después de cada ronda.\n\nEste ejercicio debe tomar aproximadamente 25 minutos.",
     "crumbs": [
       "**Sección 4** - Enseñar en línea y Planificación de cursos",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Simulación de entrenamiento 1 (en grupos)</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Simulación de entrenamiento 1 (en grupos)</span>"
     ]
   },
   {
     "objectID": "Cap4A.html",
     "href": "Cap4A.html",
-    "title": "10  Introducción y recapitulación",
+    "title": "7  Introducción y recapitulación",
     "section": "",
-    "text": "10.1 Recapitulación\nFeedback hacia los instructores:",
+    "text": "Instructora:",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Introducción y recapitulación</span>"
-    ]
-  },
-  {
-    "objectID": "Cap4A.html#recapitulación",
-    "href": "Cap4A.html#recapitulación",
-    "title": "10  Introducción y recapitulación",
-    "section": "",
-    "text": "TipTus retos del dia de hoy son:\n\n\n\n\nGenerar una sesión breve y cambiarla usando el feedback recibido.\nAmpliar una idea de sesión a una sesión más larga\nConsiderar los aspectos prácticos de llevar a cabo esta sesión: diseñar una lista de verificación para el capacitador",
-    "crumbs": [
-      "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Introducción y recapitulación</span>"
-    ]
-  },
-  {
-    "objectID": "Cap4A.html#aplicar-una-mentalidad-de-crecimiento-a-la-enseñanza",
-    "href": "Cap4A.html#aplicar-una-mentalidad-de-crecimiento-a-la-enseñanza",
-    "title": "10  Introducción y recapitulación",
-    "section": "10.2 Aplicar una mentalidad de crecimiento a la enseñanza",
-    "text": "10.2 Aplicar una mentalidad de crecimiento a la enseñanza\n\nLos grandes maestros no nacen geniales.\n\nSe hacen geniales a través de la práctica reflexiva.",
-    "crumbs": [
-      "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Introducción y recapitulación</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Introducción y recapitulación</span>"
     ]
   },
   {
     "objectID": "Cap4B.html",
     "href": "Cap4B.html",
-    "title": "11  Principios de una buena capacitación",
+    "title": "8  Principios de una buena capacitación",
     "section": "",
-    "text": "11.1 Estructura",
+    "text": "8.1 Estructura",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
     ]
   },
   {
     "objectID": "Cap4B.html#estructura",
     "href": "Cap4B.html#estructura",
-    "title": "11  Principios de una buena capacitación",
+    "title": "8  Principios de una buena capacitación",
     "section": "",
     "text": "Definiendo tu audiencia\nPlanificación de cursos: objetivos y metas de aprendizaje, desarrollo de materiales didácticos adecuados.\nImpartición de la capacitación: involucrar y motivar a sus alumnos.\nRetroalimentación: cómo recopilar los comentarios, interpretarlos y utilizarlos para mejorar la práctica docente.\nCierre y reflexión final",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
     ]
   },
   {
     "objectID": "Cap4B.html#definiendo-tu-audiencia",
     "href": "Cap4B.html#definiendo-tu-audiencia",
-    "title": "11  Principios de una buena capacitación",
-    "section": "11.2 Definiendo tu audiencia",
-    "text": "11.2 Definiendo tu audiencia\n\n\nPúblico objetivo\n\nEsto puede o no ser tu elección.\nCosas por tomar en cuenta:\n\nAntecedentes generales\nPunto de partida\nNecesidades\nConsideraciones especiales\n\nEj. Bioinformática básico\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteActividad en equipo (10 min)\n\n\n\nCada equipo debe imaginar que diseñará un taller sobre un tema específico. Ejemplo:\n\nIntroducción a R para biólogos\n\nDescriban lo siguiente:\n\nTítulo del curso\n¿Quién es tu audiencia objetivo?\n¿Qué habilidades necesitan desarrollar?\n¿Qué puede motivar a la audiencia a tomar este taller?\n\n\nFinalmente, expliquen su propuesta en 2 min.",
+    "title": "8  Principios de una buena capacitación",
+    "section": "8.2 Definiendo tu audiencia",
+    "text": "8.2 Definiendo tu audiencia\n\n\nPúblico objetivo\n\nEsto puede o no ser tu elección.\nCosas por tomar en cuenta:\n\nAntecedentes generales\nPunto de partida\nNecesidades\nConsideraciones especiales\n\nEj. Bioinformática básico\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteActividad en equipo (10 min)\n\n\n\nCada equipo debe imaginar que diseñará un taller sobre un tema específico. Ejemplo:\n\nIntroducción a R para biólogos\n\nDescriban lo siguiente:\n\nTítulo del curso\n¿Quién es tu audiencia objetivo?\n¿Qué habilidades necesitan desarrollar?\n¿Qué puede motivar a la audiencia a tomar este taller?\n\n\nFinalmente, expliquen su propuesta en 2 min.",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
     ]
   },
   {
     "objectID": "Cap4B.html#qué-es-un-objetivo-de-curso",
     "href": "Cap4B.html#qué-es-un-objetivo-de-curso",
-    "title": "11  Principios de una buena capacitación",
-    "section": "11.3 🎯 ¿Qué es un objetivo de curso?",
-    "text": "11.3 🎯 ¿Qué es un objetivo de curso?\n\nUn objetivo de curso define lo que se espera que el participante logre al finalizar el curso completo. Es más general y abarca un conjunto de conocimientos, habilidades y actitudes.\n\n📌 Características:\n\nEnfocado en resultados a mediano o largo plazo.\nResume las metas generales del curso.\nIntegra varias sesiones o módulos (plan de estudios)\n\n\nEjemplo: Los participantes serán capaces de diseñar, implementar y evaluar talleres de capacitación enfocados en públicos especificos utilizando metodologías participativas.",
+    "title": "8  Principios de una buena capacitación",
+    "section": "8.3 🎯 ¿Qué es un objetivo de curso?",
+    "text": "8.3 🎯 ¿Qué es un objetivo de curso?\n\nUn objetivo de curso define lo que se espera que el participante logre al finalizar el curso completo. Es más general y abarca un conjunto de conocimientos, habilidades y actitudes.\n\n📌 Características:\n\nEnfocado en resultados a mediano o largo plazo.\nResume las metas generales del curso.\nIntegra varias sesiones o módulos (plan de estudios)\n\n\nEjemplo: Los participantes serán capaces de diseñar, implementar y evaluar talleres de capacitación enfocados en públicos especificos utilizando metodologías participativas.",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
     ]
   },
   {
     "objectID": "Cap4B.html#qué-es-un-objetivo-de-sesión",
     "href": "Cap4B.html#qué-es-un-objetivo-de-sesión",
-    "title": "11  Principios de una buena capacitación",
-    "section": "11.4 🎯 ¿Qué es un objetivo de sesión?",
-    "text": "11.4 🎯 ¿Qué es un objetivo de sesión?\nUn objetivo de sesión indica qué se espera que el participante logre al final de una clase o módulo específico. Es más concreto y enfocado.\n\n11.4.1 📌 Características:\n\nMás específico, observable y medible.\nRelacionado directamente con los contenidos y actividades de la sesión.\nSe formula normalmente con un solo verbo por objetivo.\n\n\nEjemplo: Los participantes podrán identificar los elementos clave para definir la audiencia de un taller.\n\n\n\n11.4.2 ¿Cómo formular ambos? 🛠️\nUsa la fórmula básica:\n[Quién] + [hará qué] + [en qué condiciones o con qué nivel de logro]\n\nO bien sigue la estructura del enfoque SMART.\n\n\n\n\n\n\nNote\n\n\n\nSMART: Se enfoca en redactar objetivos claros y efectivos, asegurando que sean específicos y medibles.\n\n\n\n\n11.4.3 Los resultados de aprendizaje deberían ser SMART\n\nSpecific - Específico\nMeasurable - Medible\nAchievable - Alcanzable\nRealistic - Realista/Relevante\nTime-limited - Tiempo definido",
+    "title": "8  Principios de una buena capacitación",
+    "section": "8.4 🎯 ¿Qué es un objetivo de sesión?",
+    "text": "8.4 🎯 ¿Qué es un objetivo de sesión?\nUn objetivo de sesión indica qué se espera que el participante logre al final de una clase o módulo específico. Es más concreto y enfocado.\n\n8.4.1 📌 Características:\n\nMás específico, observable y medible.\nRelacionado directamente con los contenidos y actividades de la sesión.\nSe formula normalmente con un solo verbo por objetivo.\n\n\nEjemplo: Los participantes podrán identificar los elementos clave para definir la audiencia de un taller.\n\n\n\n8.4.2 ¿Cómo formular ambos? 🛠️\nUsa la fórmula básica:\n[Quién] + [hará qué] + [en qué condiciones o con qué nivel de logro]\n\nO bien sigue la estructura del enfoque SMART.\n\n\n\n\n\n\nNote\n\n\n\nSMART: Se enfoca en redactar objetivos claros y efectivos, asegurando que sean específicos y medibles.\n\n\n\n\n8.4.3 Los resultados de aprendizaje deberían ser SMART\n\nSpecific - Específico\nMeasurable - Medible\nAchievable - Alcanzable\nRealistic - Realista/Relevante\nTime-limited - Tiempo definido",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
     ]
   },
   {
     "objectID": "Cap4B.html#s-específico",
     "href": "Cap4B.html#s-específico",
-    "title": "11  Principios de una buena capacitación",
-    "section": "11.5 ✅ S – Específico",
-    "text": "11.5 ✅ S – Específico\nPregunta principal:\n\n¿Qué exactamente quiero que los participantes logren?\n\nOtras preguntas:\n\n¿Qué habilidad, conocimiento o actitud deben adquirir?\n¿A qué se refiere concretamente el objetivo?\n¿Está claro quién es el público objetivo?\n\nEjemplo de pregunta: ¿Quiero que identifiquen conceptos clave, apliquen una técnica, o diseñen un producto?",
+    "title": "8  Principios de una buena capacitación",
+    "section": "8.5 ✅ S – Específico",
+    "text": "8.5 ✅ S – Específico\nPregunta principal:\n\n¿Qué exactamente quiero que los participantes logren?\n\nOtras preguntas:\n\n¿Qué habilidad, conocimiento o actitud deben adquirir?\n¿A qué se refiere concretamente el objetivo?\n¿Está claro quién es el público objetivo?\n\nEjemplo de pregunta: ¿Quiero que identifiquen conceptos clave, apliquen una técnica, o diseñen un producto?",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
     ]
   },
   {
     "objectID": "Cap4B.html#m-medible",
     "href": "Cap4B.html#m-medible",
-    "title": "11  Principios de una buena capacitación",
-    "section": "11.6 ✅ M – Medible",
-    "text": "11.6 ✅ M – Medible\nPregunta principal:\n\n¿Cómo sabré que lo lograron?\n\nOtras preguntas:\n\n¿Qué evidencia mostrarán para demostrar que alcanzaron el objetivo?\n¿Puedo observarlo, medirlo o evaluarlo?\n\nEjemplo de pregunta: ¿Cómo puedo comprobar que los participantes entendieron o aplicaron lo aprendido?",
+    "title": "8  Principios de una buena capacitación",
+    "section": "8.6 ✅ M – Medible",
+    "text": "8.6 ✅ M – Medible\nPregunta principal:\n\n¿Cómo sabré que lo lograron?\n\nOtras preguntas:\n\n¿Qué evidencia mostrarán para demostrar que alcanzaron el objetivo?\n¿Puedo observarlo, medirlo o evaluarlo?\n\nEjemplo de pregunta: ¿Cómo puedo comprobar que los participantes entendieron o aplicaron lo aprendido?",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
     ]
   },
   {
     "objectID": "Cap4B.html#a-alcanzable",
     "href": "Cap4B.html#a-alcanzable",
-    "title": "11  Principios de una buena capacitación",
-    "section": "11.7 ✅ A – Alcanzable",
-    "text": "11.7 ✅ A – Alcanzable\nPregunta principal:\n\n¿Es realista con el tiempo y recursos disponibles?\n\nOtras preguntas:\n\n¿Tienen los participantes los conocimientos previos necesarios?\n¿Se puede lograr el objetivo en el tiempo de la sesión o del curso?\n\nEjemplo de pregunta: ¿Pueden los participantes lograr este objetivo con el nivel actual que tienen y en el tiempo disponible?",
+    "title": "8  Principios de una buena capacitación",
+    "section": "8.7 ✅ A – Alcanzable",
+    "text": "8.7 ✅ A – Alcanzable\nPregunta principal:\n\n¿Es realista con el tiempo y recursos disponibles?\n\nOtras preguntas:\n\n¿Tienen los participantes los conocimientos previos necesarios?\n¿Se puede lograr el objetivo en el tiempo de la sesión o del curso?\n\nEjemplo de pregunta: ¿Pueden los participantes lograr este objetivo con el nivel actual que tienen y en el tiempo disponible?",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
     ]
   },
   {
     "objectID": "Cap4B.html#r-relevante",
     "href": "Cap4B.html#r-relevante",
-    "title": "11  Principios de una buena capacitación",
-    "section": "11.8 ✅ R – Relevante",
-    "text": "11.8 ✅ R – Relevante\nPregunta principal:\n\n¿Está alineado con las necesidades de la audiencia y los objetivos generales del curso?\n\nOtras preguntas:\n\n¿Es útil o aplicable para el trabajo o contexto de los participantes?\n¿Aporta valor al proceso de aprendizaje?\n\nEjemplo de pregunta: ¿Este objetivo contribuye a que los participantes logren un cambio significativo en su práctica o conocimiento?",
+    "title": "8  Principios de una buena capacitación",
+    "section": "8.8 ✅ R – Relevante",
+    "text": "8.8 ✅ R – Relevante\nPregunta principal:\n\n¿Está alineado con las necesidades de la audiencia y los objetivos generales del curso?\n\nOtras preguntas:\n\n¿Es útil o aplicable para el trabajo o contexto de los participantes?\n¿Aporta valor al proceso de aprendizaje?\n\nEjemplo de pregunta: ¿Este objetivo contribuye a que los participantes logren un cambio significativo en su práctica o conocimiento?",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
     ]
   },
   {
     "objectID": "Cap4B.html#t-temporal",
     "href": "Cap4B.html#t-temporal",
-    "title": "11  Principios de una buena capacitación",
-    "section": "11.9 ✅ T – Temporal",
-    "text": "11.9 ✅ T – Temporal\nPregunta prinicipal:\n\n¿Cuándo se debe lograr?\n\nOtras preguntas:\n\n¿Se puede cumplir al final de la sesión, módulo o curso?\n¿Está definido el plazo para alcanzar el objetivo?\n\nEjemplo de pregunta: ¿Este objetivo debe alcanzarse en esta sesión, en una semana, o al final del curso?\n\n11.9.1 Pre-requisitos de un curso\n\nConceptos teóricos (ej. biología básica, álgebra) Conocimientos técnicos (ej. uso de software, manejo de archivos)\nHabilidades generales (ej. saber programar, interpretar gráficos)\nNivel requerido (básico, intermedio o avanzado)\nDefinir si serán obligatorios o recomendados\n\n\n\n\n\n\n\nNoteActividad en equipo (10 min)\n\n\n\nCada equipo debe agregar lo siguiente a su taller:\n\nObjetivo del curso\nPre-requisitos\n\nFinalmente, expliquen su propuesta en 2 min.\n\n\n\n\n11.9.2 Taxonomía de Bloom: Niveles de aprendizaje\nLa Taxonomía de Bloom es una herramienta fundamental en la educación que sirve para clasificar y estructurar los objetivos de aprendizaje según el nivel de complejidad cognitiva que implican. Fue desarrollada por Benjamin Bloom y colaboradores en 1956 y luego revisada en 2001 para adaptarse mejor a contextos modernos.\n\n\n\n\n\n\nAplicaciones\n\n\n\nVerbos empleados",
+    "title": "8  Principios de una buena capacitación",
+    "section": "8.9 ✅ T – Temporal",
+    "text": "8.9 ✅ T – Temporal\nPregunta prinicipal:\n\n¿Cuándo se debe lograr?\n\nOtras preguntas:\n\n¿Se puede cumplir al final de la sesión, módulo o curso?\n¿Está definido el plazo para alcanzar el objetivo?\n\nEjemplo de pregunta: ¿Este objetivo debe alcanzarse en esta sesión, en una semana, o al final del curso?\n\n8.9.1 Pre-requisitos de un curso\n\nConceptos teóricos (ej. biología básica, álgebra) Conocimientos técnicos (ej. uso de software, manejo de archivos)\nHabilidades generales (ej. saber programar, interpretar gráficos)\nNivel requerido (básico, intermedio o avanzado)\nDefinir si serán obligatorios o recomendados\n\n\n\n\n\n\n\nNoteActividad en equipo (10 min)\n\n\n\nCada equipo debe agregar lo siguiente a su taller:\n\nObjetivo del curso\nPre-requisitos\n\nFinalmente, expliquen su propuesta en 2 min.\n\n\n\n\n8.9.2 Taxonomía de Bloom: Niveles de aprendizaje\nLa Taxonomía de Bloom es una herramienta fundamental en la educación que sirve para clasificar y estructurar los objetivos de aprendizaje según el nivel de complejidad cognitiva que implican. Fue desarrollada por Benjamin Bloom y colaboradores en 1956 y luego revisada en 2001 para adaptarse mejor a contextos modernos.\n\n\n\n\n\n\nAplicaciones\n\n\n\nVerbos empleados",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
     ]
   },
   {
     "objectID": "Cap4B.html#plan-de-estudios",
     "href": "Cap4B.html#plan-de-estudios",
-    "title": "11  Principios de una buena capacitación",
-    "section": "11.10 Plan de estudios",
-    "text": "11.10 Plan de estudios\n\nNo hay una forma establecida de hacer esto.\n\nPara estructurar el contenido de un curso:\n\nIdentifica los temas clave del curso.\nDefine cuáles vas a cubrir y hasta qué profundidad.\nConsidera si los participantes necesitan conocimientos previos.\nEquilibra teoría y práctica para favorecer el aprendizaje.\n\n\n11.10.1 Estructura típica de una sesión de capacitación\nEjemplo: 1h de curso\n\n\n\n\n\n\n\n\nEstructura\nInformación\nTiempo\n\n\nInicio\n(10-15%)\n\nActividad rompehielo o pregunta disparadora.\nPresentación, expectativas, encuadre del tema.\n\n10-15 min\n\n\nDesarrollo\n(70-80%)\n\nPresentación de contenidos clave\nActividades prácticas, discusiones o ejercicios.\nEjemplos aplicados y participación activa\n\n40-30 min\n\n\nCierre\n(10-15%)\n\nRecapitulación.\nPreguntas, evaluación rápida o reflexión.\nIndicaciones de seguimiento, recursos adicionales.\n\n10 - 15 min\n\n\n\nEjemplo: https://eveliacoss.github.io/Tutorial_ISCB_LATAM_scATACseq/\n\n\n11.10.2 Agrega los descansos\n\nPermite recuperar la atención y reducir la fatiga.\nFavorece la retención de información y mejora el desempeño cognitivo.\nTambién es útil para socializar o procesar lo aprendido.\n\nSe recomiendan descansos de 5 a 10 minutos cada 60 a 90 minutos.\n\n\n\n\n\n\nNoteActividad en equipo (10 min)\n\n\n\nCada equipo debe agregar lo siguiente a su taller:\n\nCronograma de actividades\n\nFinalmente, expliquen su propuesta en 2 min.",
+    "title": "8  Principios de una buena capacitación",
+    "section": "8.10 Plan de estudios",
+    "text": "8.10 Plan de estudios\n\nNo hay una forma establecida de hacer esto.\n\nPara estructurar el contenido de un curso:\n\nIdentifica los temas clave del curso.\nDefine cuáles vas a cubrir y hasta qué profundidad.\nConsidera si los participantes necesitan conocimientos previos.\nEquilibra teoría y práctica para favorecer el aprendizaje.\n\n\n8.10.1 Estructura típica de una sesión de capacitación\nEjemplo: 1h de curso\n\n\n\n\n\n\n\n\nEstructura\nInformación\nTiempo\n\n\nInicio\n(10-15%)\n\nActividad rompehielo o pregunta disparadora.\nPresentación, expectativas, encuadre del tema.\n\n10-15 min\n\n\nDesarrollo\n(70-80%)\n\nPresentación de contenidos clave\nActividades prácticas, discusiones o ejercicios.\nEjemplos aplicados y participación activa\n\n40-30 min\n\n\nCierre\n(10-15%)\n\nRecapitulación.\nPreguntas, evaluación rápida o reflexión.\nIndicaciones de seguimiento, recursos adicionales.\n\n10 - 15 min\n\n\n\nEjemplo: https://eveliacoss.github.io/Tutorial_ISCB_LATAM_scATACseq/\n\n\n8.10.2 Agrega los descansos\n\nPermite recuperar la atención y reducir la fatiga.\nFavorece la retención de información y mejora el desempeño cognitivo.\nTambién es útil para socializar o procesar lo aprendido.\n\nSe recomiendan descansos de 5 a 10 minutos cada 60 a 90 minutos.\n\n\n\n\n\n\nNoteActividad en equipo (10 min)\n\n\n\nCada equipo debe agregar lo siguiente a su taller:\n\nCronograma de actividades\n\nFinalmente, expliquen su propuesta en 2 min.",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
     ]
   },
   {
     "objectID": "Cap4B.html#formas-de-detectar-dudas-en-tu-audiencia",
     "href": "Cap4B.html#formas-de-detectar-dudas-en-tu-audiencia",
-    "title": "11  Principios de una buena capacitación",
-    "section": "11.11 Formas de detectar dudas en tu audiencia",
-    "text": "11.11 Formas de detectar dudas en tu audiencia\n✋ Formas activas o participativas\n\nLevanten la mano los supervivientes en este punto.\nEn una palabra, ¿cómo se sintieron con este tema? (pueden decir: “confundido”, “claro”, “interesante”…)\nEscriban en el chat (si es virtual) cualquier duda o comentario.\n\n🧠 Formas reflexivas o indirectas\n\n¿Qué se llevarían de esta parte si tuvieran que explicárselo a alguien más?\nSi tuvieran que resumir este tema en una frase, ¿cómo lo harían? (Esto revela si hay comprensión o dudas encubiertas).",
+    "title": "8  Principios de una buena capacitación",
+    "section": "8.11 Formas de detectar dudas en tu audiencia",
+    "text": "8.11 Formas de detectar dudas en tu audiencia\n✋ Formas activas o participativas\n\nLevanten la mano los supervivientes en este punto.\nEn una palabra, ¿cómo se sintieron con este tema? (pueden decir: “confundido”, “claro”, “interesante”…)\nEscriban en el chat (si es virtual) cualquier duda o comentario.\n\n🧠 Formas reflexivas o indirectas\n\n¿Qué se llevarían de esta parte si tuvieran que explicárselo a alguien más?\nSi tuvieran que resumir este tema en una frase, ¿cómo lo harían? (Esto revela si hay comprensión o dudas encubiertas).",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
     ]
   },
   {
     "objectID": "Cap4B.html#evaluación-del-aprendizaje-adquirido",
     "href": "Cap4B.html#evaluación-del-aprendizaje-adquirido",
-    "title": "11  Principios de una buena capacitación",
-    "section": "11.12 Evaluación del aprendizaje adquirido",
-    "text": "11.12 Evaluación del aprendizaje adquirido\nPropósito: Comprobar si los participantes alcanzaron los objetivos de la sesión o curso.\nCuándo hacerlo: Al final de la sesión o de cada bloque importante.\nCómo hacerlo:\n\nPreguntas orales o escritas.\nMiniquiz o ejercicios de aplicación.\nActividad de repaso o mapa conceptual.\nRonda de reflexión: “¿Qué aprendí hoy?”\n\nQué observar:\n\nNivel de comprensión.\nCapacidad de aplicar lo aprendido.\nDudas o conceptos que deben reforzarse.",
+    "title": "8  Principios de una buena capacitación",
+    "section": "8.12 Evaluación del aprendizaje adquirido",
+    "text": "8.12 Evaluación del aprendizaje adquirido\nPropósito: Comprobar si los participantes alcanzaron los objetivos de la sesión o curso.\nCuándo hacerlo: Al final de la sesión o de cada bloque importante.\nCómo hacerlo:\n\nPreguntas orales o escritas.\nMiniquiz o ejercicios de aplicación.\nActividad de repaso o mapa conceptual.\nRonda de reflexión: “¿Qué aprendí hoy?”\n\nQué observar:\n\nNivel de comprensión.\nCapacidad de aplicar lo aprendido.\nDudas o conceptos que deben reforzarse.",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
     ]
   },
   {
     "objectID": "Cap4B.html#retroalimentación",
     "href": "Cap4B.html#retroalimentación",
-    "title": "11  Principios de una buena capacitación",
-    "section": "11.13 Retroalimentación",
-    "text": "11.13 Retroalimentación\n❓ Tipos de preguntas para recopilar retroalimentación\n🔹 Cerradas (rápidas y cuantificables)\n\n¿La sesión cumplió tus expectativas? (Sí/No)\n¿Te resultó clara la explicación de los temas? (Escala del 1 al 5)\n¿Recomendarías esta sesión a otra persona? (Sí/No)\n\n🔹 Abiertas (más detalladas y reflexivas)\n\n¿Qué fue lo que más te gustó de esta sesión?\n¿Qué parte te pareció menos útil o confusa?\n¿Qué sugerencias tienes para mejorar este taller en el futuro?\n¿Hubo algo que esperabas aprender y no se abordó?\n\nEjemplo: Planificación del curso de CABANANet",
+    "title": "8  Principios de una buena capacitación",
+    "section": "8.13 Retroalimentación",
+    "text": "8.13 Retroalimentación\n❓ Tipos de preguntas para recopilar retroalimentación\n🔹 Cerradas (rápidas y cuantificables)\n\n¿La sesión cumplió tus expectativas? (Sí/No)\n¿Te resultó clara la explicación de los temas? (Escala del 1 al 5)\n¿Recomendarías esta sesión a otra persona? (Sí/No)\n\n🔹 Abiertas (más detalladas y reflexivas)\n\n¿Qué fue lo que más te gustó de esta sesión?\n¿Qué parte te pareció menos útil o confusa?\n¿Qué sugerencias tienes para mejorar este taller en el futuro?\n¿Hubo algo que esperabas aprender y no se abordó?\n\nEjemplo: Planificación del curso de CABANANet",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Principios de una buena capacitación</span>"
     ]
   },
   {
     "objectID": "Cap6A.html",
     "href": "Cap6A.html",
-    "title": "12  Programación en vivo",
+    "title": "9  Programación en vivo",
     "section": "",
-    "text": "12.1 ¿Por qué utilizar codificación en vivo participativa?\nUno de los pilares de la enseñanza en The Carpentries es la codificación en vivo: los instructores no utilizan diapositivas para enseñar programación, sino que trabajan a través del material de la lección, escribiendo el código o las instrucciones en tiempo real, mientras los participantes del taller siguen el proceso paso a paso. Esta sección explica cómo funciona esta metodología, por qué la utilizamos y proporciona consejos generales para realizar una presentación efectiva de codificación en vivo participativa. Terminaremos esta sección practicando nosotros mismos y brindando retroalimentación a nuestros compañeros.\nNo usamos diapositivas en nuestras lecciones. En su lugar, los instructores conectan su computadora portátil al proyector y trabajan el contenido de la lección escribiendo el código, reformateando datos y explicando en voz alta a medida que avanzan. Esto se denomina codificación en vivo. Sin embargo, el instructor no codifica de forma aislada. Es crucial que los estudiantes sean fuertemente incentivados a codificar junto con el instructor. A esta práctica de tener al instructor codificando en vivo y a los estudiantes siguiendo el proceso de codificación se le conoce como codificación en vivo participativa o, de manera más informal, sesiones de codificar en vivo.",
+    "text": "Instructora:",
     "crumbs": [
       "**Sección 6** - Programación en vivo y entrenamientos",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Programación en vivo</span>"
-    ]
-  },
-  {
-    "objectID": "Cap6A.html#por-qué-utilizar-codificación-en-vivo-participativa",
-    "href": "Cap6A.html#por-qué-utilizar-codificación-en-vivo-participativa",
-    "title": "12  Programación en vivo",
-    "section": "",
-    "text": "WarningAnticipar el impacto\n\n\n\nEnumera algunas ventajas y desafíos de la codificación en vivo participativa desde el punto de vista tanto de los estudiantes como de los instructores en el Etherpad.\nEsta discusión debería tomar aproximadamente 5 minutos.",
-    "crumbs": [
-      "**Sección 6** - Programación en vivo y entrenamientos",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Programación en vivo</span>"
-    ]
-  },
-  {
-    "objectID": "Cap6A.html#algunas-ventajas-son",
-    "href": "Cap6A.html#algunas-ventajas-son",
-    "title": "12  Programación en vivo",
-    "section": "12.2 Algunas ventajas son:",
-    "text": "12.2 Algunas ventajas son:\n\nVer cómo se escribe un programa es más atractivo que ver a alguien pasar diapositivas que presentan fragmentos de ese mismo código.\nPermite que los instructores respondan mejor a preguntas de “¿qué pasaría si…?”. Mientras que una presentación de diapositivas es como una vía de tren, la codificación en vivo participativa permite a los instructores desviarse y seguir los intereses de sus estudiantes.\nTransferencia lateral de conocimiento: la codificación en vivo facilita la transferencia de conocimiento tácito; las personas aprenden más de lo que nos damos cuenta simplemente observando cómo trabajan los instructores.\nObliga al instructor a ir más despacio: si tiene que escribir el programa a medida que avanza, sólo podrá ir el doble de rápido que sus estudiantes, en lugar de diez veces más rápido como podría hacerlo con diapositivas.\nLos estudiantes ven los errores de los instructores y cómo diagnosticar y corregir esos errores. Los principiantes pasarán la mayor parte de su tiempo haciendo esto, pero normalmente no se enseña en los libros de texto.",
-    "crumbs": [
-      "**Sección 6** - Programación en vivo y entrenamientos",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Programación en vivo</span>"
-    ]
-  },
-  {
-    "objectID": "Cap6A.html#algunos-desafíos-son",
-    "href": "Cap6A.html#algunos-desafíos-son",
-    "title": "12  Programación en vivo",
-    "section": "12.3 Algunos desafíos son:",
-    "text": "12.3 Algunos desafíos son:\n\nRequiere que los instructores improvisen cuando algo sale mal o cuando los estudiantes hacen preguntas que no están directamente abordadas en el texto de la lección.\nPuede ser difícil para los estudiantes escuchar y escribir al mismo tiempo, debido al efecto de atención dividida que mencionamos anteriormente. Por eso es muy importante que los instructores expliquen primero lo que van a hacer, luego vayan diciendo en voz alta lo que están escribiendo, y finalmente expliquen nuevamente lo que hicieron.\nPuede requerir algo de práctica para que los instructores se acostumbren a pensar en voz alta mientras codifican frente a una audiencia.",
-    "crumbs": [
-      "**Sección 6** - Programación en vivo y entrenamientos",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Programación en vivo</span>"
-    ]
-  },
-  {
-    "objectID": "Cap6A.html#codificación-en-vivo-y-retroalimentación",
-    "href": "Cap6A.html#codificación-en-vivo-y-retroalimentación",
-    "title": "12  Programación en vivo",
-    "section": "12.4 Codificación en vivo y retroalimentación",
-    "text": "12.4 Codificación en vivo y retroalimentación\nLa codificación en vivo se adapta muy bien al modelo de práctica-retroalimentación que hemos estado discutiendo, ya que proporciona a los estudiantes oportunidades continuas de práctica (cada vez que escriben una línea de código) y retroalimentación continua (su código funciona o falla mostrando un mensaje de error). Sin embargo, es importante tener en cuenta que la retroalimentación no es útil si no se puede entender. Muchos mensajes de error son confusos y no están escritos pensando en principiantes. Continúa utilizando las estrategias de encuadre de errores que aprendimos anteriormente para asegurarte de que esta retroalimentación sea útil para los estudiantes.\n\nDepuración como habilidad Aunque los estudiantes puedan asociar de manera negativa los “errores” o los “errores tipográficos”, puede ser útil replantear la resolución de problemas como un proceso rutinario de encontrar y corregir “bugs”.\nAprender a interpretar mensajes de error es un paso importante en el desarrollo de habilidades de depuración.\nErrores intencionales vs accidentales Puede ser útil demostrar intencionalmente errores comunes y sus respectivos mensajes de error. Alternativamente, los errores cometidos por el instructor o por los estudiantes pueden ofrecer oportunidades valiosas para aprender y para enmarcar los errores de manera positiva.",
-    "crumbs": [
-      "**Sección 6** - Programación en vivo y entrenamientos",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Programación en vivo</span>"
-    ]
-  },
-  {
-    "objectID": "Cap6A.html#créditos",
-    "href": "Cap6A.html#créditos",
-    "title": "12  Programación en vivo",
-    "section": "12.5 Créditos",
-    "text": "12.5 Créditos\nCréditos y atribución:\nEste contenido ha sido traducido y adaptado del material original de The Carpentries Instructor Training, bajo la licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0).\nThe Carpentries promueve la enseñanza inclusiva y basada en evidencia de habilidades fundamentales de computación y ciencia de datos. Puedes consultar el material original en inglés en su sitio web oficial.",
-    "crumbs": [
-      "**Sección 6** - Programación en vivo y entrenamientos",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Programación en vivo</span>"
-    ]
-  },
-  {
-    "objectID": "Cap6B.html",
-    "href": "Cap6B.html",
-    "title": "13  Buen entrenamiento y mal entrenamiento",
-    "section": "",
-    "text": "13.1 Los diez mejores consejos para codificación en vivo participativa en un taller",
-    "crumbs": [
-      "**Sección 6** - Programación en vivo y entrenamientos",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Buen entrenamiento y mal entrenamiento</span>"
-    ]
-  },
-  {
-    "objectID": "Cap6B.html#los-diez-mejores-consejos-para-codificación-en-vivo-participativa-en-un-taller",
-    "href": "Cap6B.html#los-diez-mejores-consejos-para-codificación-en-vivo-participativa-en-un-taller",
-    "title": "13  Buen entrenamiento y mal entrenamiento",
-    "section": "",
-    "text": "Muévete por el salón si es posible. Esto hace que la experiencia sea más interactiva y menos monótona. Usa un micrófono si hay disponible para facilitar que las personas con dificultades auditivas puedan escucharte.\nVe despacio. Por cada comando que escribas, cada palabra de código que redactes, cada elemento de menú o botón de sitio web que selecciones, di en voz alta lo que estás haciendo mientras lo haces. Luego señala el comando y su salida en la pantalla y repásalo una segunda vez. Esto te obliga a ir más lento y permite que los estudiantes te sigan o se pongan al día. No copies y pegues código.\nImita el entorno de tus estudiantes. Intenta crear un entorno lo más similar posible al que tienen tus estudiantes para reducir la carga cognitiva. Evita usar atajos de teclado.\nUsa tu pantalla de manera efectiva. Usa una fuente grande y maximiza la ventana. Un texto negro sobre fondo blanco funciona mejor que una fuente clara sobre fondo oscuro. Si la parte inferior de la pantalla del proyector está al nivel o por debajo de las cabezas de los estudiantes, quienes están al fondo no podrán ver bien. Ajusta la altura de tus ventanas para compensar. Presta atención a la iluminación (no demasiado oscura, sin luces directas sobre la pantalla del presentador) y, si es necesario, reorganiza las mesas para que todos puedan ver bien la pantalla y los ayudantes puedan llegar fácilmente a los estudiantes.\nUtiliza ilustraciones para ayudar a los estudiantes a comprender y organizar el material. Puedes generar los esquemas en el pizarrón mientras avanzas en la explicación. Esto permite construir diagramas que crecen en complejidad al ritmo del contenido enseñado. Ayuda a los estudiantes a entender mejor el material, hace el taller más dinámico y enfoca la atención de los participantes en ti.\nApaga las notificaciones de tu laptop y tu teléfono.\nApégate al material de la lección. Las lecciones centrales de Carpentries son desarrolladas de manera colaborativa y probadas en muchos talleres, lo que las hace muy depuradas. Puede ser tentador desviarte para mostrar algún truco o método alternativo, pero no lo hagas: podrías encontrarte con situaciones inesperadas que te desvíen aún más. Si realmente quieres añadir algo externo, pruébalo exhaustivamente antes del taller. Algunos instructores usan impresiones del material de la lección, otros prefieren un segundo dispositivo (tableta o laptop) para ver sus notas y la sesión de Etherpad. Esto suele ser más confiable que alternar entre escritorios virtuales.\nNo dejes a ningún estudiante atrás. Más adelante en el entrenamiento aprenderás cómo usar notas adhesivas para medir el progreso y la comprensión de los estudiantes.\nAbraza los errores. No importa cuán preparado estés, cometerás errores. ¡Está bien! Usa esas oportunidades para aplicar estrategias de encuadre de errores y enseñar a los estudiantes el arte de la resolución de problemas.\n¡Diviértete! Está bien usar humor e improvisación para hacer el taller más ameno. Esto se vuelve más fácil a medida que te familiarizas con el material y te relajas. Comienza con cosas pequeñas, incluso decir “eso estuvo divertido” después de que algo salga bien es un buen inicio.\n\n\nPuedes leer más en Diez consejos rápidos para enseñar con codificación en vivo participativa.\n\n\n\n\n\n\n\nNotePuntos Clave\n\n\n\n\nLa codificación en vivo obliga al instructor a ir más despacio.\nCodificar junto con el instructor brinda a los estudiantes práctica y retroalimentación continuas.\nLos errores cometidos durante la codificación en vivo participativa son valiosas oportunidades de aprendizaje.",
-    "crumbs": [
-      "**Sección 6** - Programación en vivo y entrenamientos",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Buen entrenamiento y mal entrenamiento</span>"
-    ]
-  },
-  {
-    "objectID": "Cap6B.html#créditos",
-    "href": "Cap6B.html#créditos",
-    "title": "13  Buen entrenamiento y mal entrenamiento",
-    "section": "13.2 Créditos",
-    "text": "13.2 Créditos\nCréditos y atribución:\nEste contenido ha sido traducido y adaptado del material original de The Carpentries Instructor Training, bajo la licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0).\nThe Carpentries promueve la enseñanza inclusiva y basada en evidencia de habilidades fundamentales de computación y ciencia de datos. Puedes consultar el material original en inglés en su sitio web oficial.",
-    "crumbs": [
-      "**Sección 6** - Programación en vivo y entrenamientos",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Buen entrenamiento y mal entrenamiento</span>"
-    ]
-  },
-  {
-    "objectID": "Cap6C.html",
-    "href": "Cap6C.html",
-    "title": "14  Simulación de entrenamiento 2 (en grupos)",
-    "section": "",
-    "text": "Instructor: Miguel Angel Magaña\n\n\n\n\n\n\n\nWarningPráctica de Enseñanza\n\n\n\n\nDivídanse en grupos de tres personas.\nAsignen roles, que irán rotando: presentador(a), responsable del tiempo y tomador(a) de notas.\nCada miembro del grupo debe enseñar 3 minutos de un episodio de la lección elegida utilizando codificación en vivo. Para este ejercicio, sus compañeros no codificarán al mismo tiempo. Antes de comenzar, describan brevemente qué van a enseñar y qué se ha aprendido previamente.\nAl terminar cada presentación, cada miembro del grupo debe compartir retroalimentación (comenzando por sí mismo) utilizando la rúbrica 2x2. El responsable del tiempo debe limitar la discusión de retroalimentación a aproximadamente 1 minuto por persona, lo cual podría dejar tiempo al final para una discusión general.\nEl tomador(a) de notas debe registrar la retroalimentación en el Etherpad.\nCambien de roles después de cada ronda.\n\nEste ejercicio debe tomar aproximadamente 25 minutos.",
-    "crumbs": [
-      "**Sección 6** - Programación en vivo y entrenamientos",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Simulación de entrenamiento 2 (en grupos)</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Programación en vivo</span>"
     ]
   }
 ]
