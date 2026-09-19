@@ -79,7 +79,6 @@ book:
   - part: "**Sección 5** - Audiencia y Simulación de entrenamiento"
     chapters:
     - Cap4A.qmd
-    - Cap4B.qmd
   - part: "**Sección 6** - Programación en vivo y entrenamientos"
     chapters:
     - Cap6A.qmd
