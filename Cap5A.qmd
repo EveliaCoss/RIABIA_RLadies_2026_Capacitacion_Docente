@@ -11,7 +11,7 @@ Ejemplo de un curso en linea:
 ::: {.callout-note icon="false"}
 ## Template
 
-Si quieres usar el template que uso en los Workshop puedes usar [Workshop_template](https://github.com/ISCB-RSG-MEXICO/Workshop_template), genera un nuevo repositorio dando click en **USE THIS TEMPLATE/CREATE A NEW REPOSITORY.**
+Si quieres usar el template que uso en los Workshop puedes usar [Workshop_template](https://github.com/EveliaCoss/Template_Workshop_Quarto_ELCN), genera un nuevo repositorio dando click en **USE THIS TEMPLATE/CREATE A NEW REPOSITORY.**
 :::
 
 ## Lista de verificación para sesiones en línea:

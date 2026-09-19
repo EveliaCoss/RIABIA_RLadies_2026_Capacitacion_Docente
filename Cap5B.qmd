@@ -2,7 +2,7 @@
 
 > Instructora: Evelia Coss
 
-::: {.callout-warning title="Práctica de Enseñanza"}
+::: {.callout-warning title="Práctica de Enseñanza" icon="false"}
 - Divídanse en grupos de **tres** personas.
 - Asignen roles, que irán rotando: presentador(a), responsable del tiempo y tomador(a) de notas.
 - Cada miembro del grupo debe enseñar **3 minutos de un episodio de la lección elegida** **utilizando codificación en vivo**. Para este ejercicio, sus compañeros **no** codificarán al mismo tiempo. Antes de comenzar, describan brevemente qué van a enseñar y qué se ha aprendido previamente.

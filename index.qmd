@@ -22,7 +22,7 @@
   - **Dra. Ernestina Godoy Lozano** - Jefa del Departamento de Bioinformática en Enfermedades Infecciosas del CISEI, INSP; Instructora y Trainer certificada de The Carpentries; RLadies Cuernavaca. **tinagodoy\@gmail.com**
   - **Dra. Evelia Coss** - Profesora de asignatura de la ENES-Juriquilla UNAM, VieRnes de Bioinformática, RSG México y Rladies Morelia. [Web page](https://eveliacoss.github.io/), **ecossnav\@gmail.com**
   - **cDra. Quetzally Medina Velázquez -** Estudiante de doctorado en la carrera de Ciencias Biomédicas por la UNAM (INCMNSZ); Presidenta de la A.C. Comunidad de Científicas Mexicanas; Rladies Morelia. **quetzally.medina.velazquez\@gmail.com**
-  - **Dra. Nelly Sélem Mojica** - Profesora investigadora en el Centro de Ciencias Matemáticas UNAM Morelia; RLadies Morelia; RSG México; ISCB-Wikipedia. **nselem84\@gmail.com**
+  - **Dra. Nelly Sélem Mojica** - Profesora investigadora en el Centro de Ciencias Matemáticas UNAM Morelia; RLadies Morelia; RSG México; ISCB-Wikipedia. **nselemmatmor.unam.mx**
   - **cDra. Sofía Zorrilla Azcué** - Estudiante de doctorado en el Instituto de Biología de la UNAM y Kew Royal Botanic; profesora de asignatura en Ciencias Ambientales en la ENES Morelia; RLadies Morelia. [Web page](https://github.com/sofiazorrilla); **sofia.zorrilla95\@gmail.com**
 
   ![Flyer creado por Karla Leslie Matías Valdez.](flyer/4.png)
