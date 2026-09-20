@@ -76,6 +76,7 @@ book:
     chapters:
     - Cap5A.qmd
     - Cap5B.qmd
+    - Cap5C.qmd
   - part: "**Sección 5** - Audiencia y Simulación de entrenamiento"
     chapters:
     - Cap4A.qmd
