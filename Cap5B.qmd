@@ -1,6 +1,17 @@
-# Simulación de entrenamiento 1 (en grupos)
-
-> Instructora: Evelia Coss
+---
+title: "Simulación de entrenamiento 1 (en grupos)"
+date: "09/23/2025"
+author:
+    - name: Evelia Coss
+      url: https://eveliacoss.github.io/ 
+      orcid: https://orcid.org/0000-0002-7087-2977
+      email: ecosnav@gmail.com
+format:
+  html:
+    other-links:
+      - text: Notas de la Capacitación
+        href: https://docs.google.com/document/d/18cBrf20LvnqC8TXWCcJgz8unHtD2VN4UxXLGpF3yyzI/edit?usp=sharing 
+---
 
 ::: {.callout-warning title="Práctica de Enseñanza" icon="false"}
 - Divídanse en grupos de **tres** personas.

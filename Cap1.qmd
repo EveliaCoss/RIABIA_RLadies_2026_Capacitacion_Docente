@@ -1,9 +1,25 @@
-# ¿Cómo aprenden las personas?
+---
+title: "Dinámica de trabajo"
+date: "09/21/2025"
+keywords: ["Dimámica de trabajo", "Personas típicas", "Modelo mental", "Teorías del aprendizaje", "El Ciclo de Kolb"]
+author:
+    - name: Quetzally Medina
+      url: https://linktr.ee/quetzally_medina
+      orcid: https://orcid.org/0009-0004-2963-1145 
+      email: quetzally.medina.velazquez@gmail.com
+format:
+  html:
+    other-links:
+      - text: Notas de la Capacitación
+        href: https://docs.google.com/document/d/18cBrf20LvnqC8TXWCcJgz8unHtD2VN4UxXLGpF3yyzI/edit?usp=sharing 
+---
 
-> Instructora: 
+::: {.callout-note icon="false"}
+## Presentación completa
 
-<iframe 
-  src="presentaciones/python-cheatsheet.pdf" 
-  width="100%" 
-  height="700px">
+Da click en el siguiente link para ver la [presentación en OneDrive](https://drive.google.com/file/d/17Wbne2gglRroicYvKfBtr8_t3a3Vhqg-/view?usp=sharing)
+:::
+
+<iframe src="presentaciones/Seccion1.IntroduccionyAprendizaje.pdf" width="100%" height="400px">
+
 </iframe>

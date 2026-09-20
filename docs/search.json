@@ -10,102 +10,113 @@
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
+    "objectID": "Cap1.html",
+    "href": "Cap1.html",
     "title": "1  Dinámica de trabajo",
     "section": "",
-    "text": "Instructora: Quetzally",
+    "text": "NotaPresentación completa\n\n\n\nDa click en el siguiente link para ver la presentación en OneDrive",
     "crumbs": [
       "**Sección 1** - Bienvenida e Introducción",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dinámica de trabajo</span>"
     ]
   },
   {
-    "objectID": "Cap1.html",
-    "href": "Cap1.html",
-    "title": "2  ¿Cómo aprenden las personas?",
+    "objectID": "Cap2.html",
+    "href": "Cap2.html",
+    "title": "2  Modelos mentales y carga cognitiva",
     "section": "",
-    "text": "Instructora:",
-    "crumbs": [
-      "**Sección 1** - Bienvenida e Introducción",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>¿Cómo aprenden las personas?</span>"
-    ]
-  },
-  {
-    "objectID": "Cap2A.html",
-    "href": "Cap2A.html",
-    "title": "3  Modelos mentales",
-    "section": "",
-    "text": "Instructora:",
+    "text": "2.1 Modelos mentales",
     "crumbs": [
       "**Sección 2** - Modelos mentales y carga Cognitiva",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Modelos mentales</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Modelos mentales y carga cognitiva</span>"
     ]
   },
   {
-    "objectID": "Cap3A.html",
-    "href": "Cap3A.html",
-    "title": "4  Memoria y Carga Cognitiva",
+    "objectID": "Cap2.html#modelos-mentales",
+    "href": "Cap2.html#modelos-mentales",
+    "title": "2  Modelos mentales y carga cognitiva",
     "section": "",
-    "text": "Instructora: Verónica Jimenez",
+    "text": "NotaPresentación completa\n\n\n\nDa click en el siguiente link para ver la presentación de Modelos Mentales en OneDrive",
+    "crumbs": [
+      "**Sección 2** - Modelos mentales y carga Cognitiva",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Modelos mentales y carga cognitiva</span>"
+    ]
+  },
+  {
+    "objectID": "Cap2.html#carga-cognitiva",
+    "href": "Cap2.html#carga-cognitiva",
+    "title": "2  Modelos mentales y carga cognitiva",
+    "section": "2.2 Carga cognitiva",
+    "text": "2.2 Carga cognitiva\n\n\n\n\n\n\nNotaPresentación completa\n\n\n\nDa click en el siguiente link para ver la presentación de Carga cognitiva en One Drive",
+    "crumbs": [
+      "**Sección 2** - Modelos mentales y carga Cognitiva",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Modelos mentales y carga cognitiva</span>"
+    ]
+  },
+  {
+    "objectID": "Cap3.html",
+    "href": "Cap3.html",
+    "title": "3  Memoria y otros principios",
+    "section": "",
+    "text": "NotaPresentación completa\n\n\n\nDa click en el siguiente link para ver la presentación Memoria y otros principios en OneDrive",
     "crumbs": [
       "**Sección 3** - Memoria y otros principios",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Memoria y Carga Cognitiva</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Memoria y otros principios</span>"
     ]
   },
   {
     "objectID": "Cap5A.html",
     "href": "Cap5A.html",
-    "title": "5  Enseñar en línea",
+    "title": "4  Enseñar en línea",
     "section": "",
-    "text": "5.1 Lista de verificación para sesiones en línea:\nEjemplo de un curso en linea:",
+    "text": "4.1 Lista de verificación para sesiones en línea:\nEjemplo de un curso en linea:",
     "crumbs": [
       "**Sección 4** - Enseñar en línea y Planificación de cursos",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Enseñar en línea</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Enseñar en línea</span>"
     ]
   },
   {
     "objectID": "Cap5A.html#lista-de-verificación-para-sesiones-en-línea",
     "href": "Cap5A.html#lista-de-verificación-para-sesiones-en-línea",
-    "title": "5  Enseñar en línea",
+    "title": "4  Enseñar en línea",
     "section": "",
-    "text": "Da un trocito de ti para tus participantes.\n\n\n🎥 Audio y video\n\nCámara encendida y enfocada correctamente.\nMicrófono encendido y funcionando.\nConfirmar con los participantes que te escuchan bien.\n\n\n\n5.1.1 🧑‍🏫 Dinámica con los participantes\n\n👋 Saluda y genera un ambiente cálido desde el inicio.🎨 Uso de materiales\n🗓️ Indica la agenda y tiempos estimados (cuánto dura, si habrá descansos).\n📌 Usa sus nombres al interactuar para hacerlo más personalizado.\n🙋‍♀️ Anima a los participantes a prender cámara si es posible (sin forzar).\n\n\n🖥️ Materiales y visibilidad\n\nTamaño de letra legible en presentaciones y demos en vivo.\nUsar fondo claro (preferentemente blanco) para código o documentos.\nEn RStudio, mantener el tema visual en modo claro (default) si estás enseñando.\n\n\n\n🔗 Pantalla compartida\n\nVerificar que estás compartiendo la pantalla correcta en Zoom o Meet.\nConfirmar con la audiencia que pueden ver bien lo que compartes.\n\n\n\n\n5.1.2 🎨 Uso de materiales\n\n🖼️ Incluye imágenes, diagramas y ejemplos reales para mantener el interés.\n🧭 Usa punteros o destaca elementos en la pantalla para guiar visualmente.\n🔄 Si das instrucciones, muéstralas por escrito además de decirlas en voz alta.\n\n\n\n5.1.3 🎯 Preparación técnica\n\n🔌 Ten un cable de red como respaldo si tu WiFi es inestable.\n🔋 Asegúrate de que tu computadora esté cargada o conectada a corriente.\n🔕 Silencia notificaciones de correo, WhatsApp y otras apps durante la sesión.\n\n\n\n5.1.4 ⏱️ Gestión del ritmo\n\n⏸️ Planifica pausas cada 60–90 minutos para descanso o preguntas.\n⏳ Marca el cambio entre secciones para que los alumnos sigan el hilo.\n🎥 Graba la sesión si es posible, para quienes no puedan asistir en vivo (pedir permiso a las asistentes antes de empezar a grabar o contar con su permiso previo).\n\n\n\n5.1.5 📬 Seguimiento y apoyo\n\n📁 Envía materiales antes o después de la sesión.\n📩 Deja un canal de comunicación abierto (correo, chat, foro).\n🧭 Ofrece indicaciones claras sobre qué hacer después de la sesión (actividad, lectura, entrega, etc.)",
+    "text": "Da un trocito de ti para tus participantes.\n\n\n🎥 Audio y video\n\nCámara encendida y enfocada correctamente.\nMicrófono encendido y funcionando.\nConfirmar con los participantes que te escuchan bien.\n\n\n\n4.1.1 🧑‍🏫 Dinámica con los participantes\n\n👋 Saluda y genera un ambiente cálido desde el inicio.🎨 Uso de materiales\n🗓️ Indica la agenda y tiempos estimados (cuánto dura, si habrá descansos).\n📌 Usa sus nombres al interactuar para hacerlo más personalizado.\n🙋‍♀️ Anima a los participantes a prender cámara si es posible (sin forzar).\n\n\n🖥️ Materiales y visibilidad\n\nTamaño de letra legible en presentaciones y demos en vivo.\nUsar fondo claro (preferentemente blanco) para código o documentos.\nEn RStudio, mantener el tema visual en modo claro (default) si estás enseñando.\n\n\n\n🔗 Pantalla compartida\n\nVerificar que estás compartiendo la pantalla correcta en Zoom o Meet.\nConfirmar con la audiencia que pueden ver bien lo que compartes.\n\n\n\n\n4.1.2 🎨 Uso de materiales\n\n🖼️ Incluye imágenes, diagramas y ejemplos reales para mantener el interés.\n🧭 Usa punteros o destaca elementos en la pantalla para guiar visualmente.\n🔄 Si das instrucciones, muéstralas por escrito además de decirlas en voz alta.\n\n\n\n4.1.3 🎯 Preparación técnica\n\n🔌 Ten un cable de red como respaldo si tu WiFi es inestable.\n🔋 Asegúrate de que tu computadora esté cargada o conectada a corriente.\n🔕 Silencia notificaciones de correo, WhatsApp y otras apps durante la sesión.\n\n\n\n4.1.4 ⏱️ Gestión del ritmo\n\n⏸️ Planifica pausas cada 60–90 minutos para descanso o preguntas.\n⏳ Marca el cambio entre secciones para que los alumnos sigan el hilo.\n🎥 Graba la sesión si es posible, para quienes no puedan asistir en vivo (pedir permiso a las asistentes antes de empezar a grabar o contar con su permiso previo).\n\n\n\n4.1.5 📬 Seguimiento y apoyo\n\n📁 Envía materiales antes o después de la sesión.\n📩 Deja un canal de comunicación abierto (correo, chat, foro).\n🧭 Ofrece indicaciones claras sobre qué hacer después de la sesión (actividad, lectura, entrega, etc.)",
     "crumbs": [
       "**Sección 4** - Enseñar en línea y Planificación de cursos",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Enseñar en línea</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Enseñar en línea</span>"
     ]
   },
   {
     "objectID": "Cap5B.html",
     "href": "Cap5B.html",
-    "title": "6  Simulación de entrenamiento 1 (en grupos)",
+    "title": "5  Simulación de entrenamiento 1 (en grupos)",
     "section": "",
-    "text": "Instructora: Evelia Coss\n\n\n\n\n\n\n\nAdvertenciaPráctica de Enseñanza\n\n\n\n\nDivídanse en grupos de tres personas.\nAsignen roles, que irán rotando: presentador(a), responsable del tiempo y tomador(a) de notas.\nCada miembro del grupo debe enseñar 3 minutos de un episodio de la lección elegida utilizando codificación en vivo. Para este ejercicio, sus compañeros no codificarán al mismo tiempo. Antes de comenzar, describan brevemente qué van a enseñar y qué se ha aprendido previamente.\nAl terminar cada presentación, cada miembro del grupo debe compartir retroalimentación (comenzando por sí mismo) utilizando la rúbrica 2x2. El responsable del tiempo debe limitar la discusión de retroalimentación a aproximadamente 1 minuto por persona, lo cual podría dejar tiempo al final para una discusión general.\nEl tomador(a) de notas debe registrar la retroalimentación en el Etherpad.\nCambien de roles después de cada ronda.\n\nEste ejercicio debe tomar aproximadamente 25 minutos.",
+    "text": "AdvertenciaPráctica de Enseñanza\n\n\n\n\nDivídanse en grupos de tres personas.\nAsignen roles, que irán rotando: presentador(a), responsable del tiempo y tomador(a) de notas.\nCada miembro del grupo debe enseñar 3 minutos de un episodio de la lección elegida utilizando codificación en vivo. Para este ejercicio, sus compañeros no codificarán al mismo tiempo. Antes de comenzar, describan brevemente qué van a enseñar y qué se ha aprendido previamente.\nAl terminar cada presentación, cada miembro del grupo debe compartir retroalimentación (comenzando por sí mismo) utilizando la rúbrica 2x2. El responsable del tiempo debe limitar la discusión de retroalimentación a aproximadamente 1 minuto por persona, lo cual podría dejar tiempo al final para una discusión general.\nEl tomador(a) de notas debe registrar la retroalimentación en el Etherpad.\nCambien de roles después de cada ronda.\n\nEste ejercicio debe tomar aproximadamente 25 minutos.",
     "crumbs": [
       "**Sección 4** - Enseñar en línea y Planificación de cursos",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Simulación de entrenamiento 1 (en grupos)</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Simulación de entrenamiento 1 (en grupos)</span>"
     ]
   },
   {
     "objectID": "Cap4A.html",
     "href": "Cap4A.html",
-    "title": "7  Introducción y recapitulación",
+    "title": "6  Introducción y recapitulación",
     "section": "",
     "text": "Instructora:",
     "crumbs": [
       "**Sección 5** - Audiencia y Simulación de entrenamiento",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Introducción y recapitulación</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introducción y recapitulación</span>"
     ]
   },
   {
     "objectID": "Cap6A.html",
     "href": "Cap6A.html",
-    "title": "8  Programación en vivo",
+    "title": "7  Programación en vivo",
     "section": "",
-    "text": "Instructora:",
+    "text": "NotaPresentación completa\n\n\n\nDa click en el siguiente link para ver la presentación del Canva de la clase.",
     "crumbs": [
       "**Sección 6** - Programación en vivo y entrenamientos",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Programación en vivo</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Programación en vivo</span>"
     ]
   }
 ]

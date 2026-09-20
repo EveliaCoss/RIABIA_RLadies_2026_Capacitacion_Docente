@@ -1,0 +1,41 @@
+---
+title: "Modelos mentales y carga cognitiva"
+date: "09/21/2025"
+author:
+    - name: Ernestina Godoy
+      url: https://scholar.google.com/citations?user=hKWh9yEAAAAJ&hl=es
+      orcid: https://orcid.org/0009-0004-2963-1145
+      email: tinagodoy@gmail.com
+format:
+  html:
+    other-links:
+      - text: Notas de la Capacitación
+        href: https://docs.google.com/document/d/18cBrf20LvnqC8TXWCcJgz8unHtD2VN4UxXLGpF3yyzI/edit?usp=sharing 
+---
+
+## Modelos mentales
+
+::: {.callout-note icon="false"}
+## Presentación completa
+
+Da click en el siguiente link para ver la [presentación de Modelos Mentales en OneDrive](https://drive.google.com/file/d/1uIwcpp8hqIBLqB9iYRCfChR2fzhU0Ztb/view?usp=sharing)
+:::
+
+
+<iframe src="presentaciones/Seccion2_MODELOS_MENTALES.pdf" width="100%" height="470px">
+
+</iframe>
+
+## Carga cognitiva
+
+::: {.callout-note icon="false"}
+## Presentación completa
+
+Da click en el siguiente link para ver la [presentación de Carga cognitiva en One Drive](https://drive.google.com/file/d/1GWRFPftKzuCTPIrGipPuadp5fiFPHQCc/view?usp=sharing)
+:::
+
+
+<iframe src="presentaciones/Seccion2_CARGA_COGNITIVA.pdf" width="100%" height="470px">
+
+</iframe>
+

@@ -53,6 +53,7 @@ book:
     - name: Sofía Zorrilla
       degrees: PhD(c)
       url: https://github.com/sofiazorrilla
+      orcid: https://orcid.org/0000-0002-5969-6685 
       email: sofia.zorrilla95@gmail.com
       affiliations:
         - name: ENES-Morelia, UNAM
@@ -64,14 +65,13 @@ book:
   - index.qmd
   - part: "**Sección 1** - Bienvenida e Introducción"
     chapters:
-    - intro.qmd
     - Cap1.qmd
   - part: "**Sección 2** - Modelos mentales y carga Cognitiva"
     chapters:
-    - Cap2A.qmd
+    - Cap2.qmd
   - part: "**Sección 3** - Memoria y otros principios"
     chapters:
-    - Cap3A.qmd
+    - Cap3.qmd
   - part: "**Sección 4** - Enseñar en línea y Planificación de cursos"
     chapters:
     - Cap5A.qmd

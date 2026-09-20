@@ -1,0 +1,25 @@
+---
+title: "Memoria y otros principios"
+date: "09/21/2025"
+author:
+    - name: Verónica Jimenez
+      url: https://www.ibt.unam.mx/perfil/2252/mc-veronica-jimenez-jacinto
+      orcid: https://orcid.org/0000-0001-6742-1537
+      email: veronica.jimenez@ibt.unam.mx
+format:
+  html:
+    other-links:
+      - text: Notas de la Capacitación
+        href: https://docs.google.com/document/d/18cBrf20LvnqC8TXWCcJgz8unHtD2VN4UxXLGpF3yyzI/edit?usp=sharing 
+---
+
+::: {.callout-note icon="false"}
+## Presentación completa
+
+Da click en el siguiente link para ver la [presentación Memoria y otros principios en OneDrive](https://drive.google.com/file/d/1Qt2AjHr9LnoHQr_wOEncgBhPlplAzj08/view?usp=sharing)
+:::
+
+
+<iframe src="presentaciones/Seccion3.MemoriaYotrosPrincipios.pdf" width="100%" height="470px">
+
+</iframe>
