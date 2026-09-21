@@ -13,13 +13,21 @@ format:
         href: https://docs.google.com/document/d/18cBrf20LvnqC8TXWCcJgz8unHtD2VN4UxXLGpF3yyzI/edit?usp=sharing 
 ---
 
-::: {.callout-warning title="Práctica de Enseñanza" icon="false"}
-- Divídanse en grupos de **tres** personas.
-- Asignen roles, que irán rotando: presentador(a), responsable del tiempo y tomador(a) de notas.
-- Cada miembro del grupo debe enseñar **3 minutos de un episodio de la lección elegida** **utilizando codificación en vivo**. Para este ejercicio, sus compañeros **no** codificarán al mismo tiempo. Antes de comenzar, describan brevemente qué van a enseñar y qué se ha aprendido previamente.
-- Al terminar cada presentación, cada miembro del grupo debe compartir retroalimentación (comenzando por sí mismo) utilizando la rúbrica 2x2. El responsable del tiempo debe limitar la discusión de retroalimentación a aproximadamente 1 minuto por persona, lo cual podría dejar tiempo al final para una discusión general.
-- El tomador(a) de notas debe registrar la retroalimentación en el Etherpad.
-- Cambien de roles después de cada ronda.
+::: {.callout-warning title="👩💻 Práctica de codificación en vivo" icon="false"}
+- Formen grupos de tres personas.
+- Asignen tres roles, que rotarán después de cada ronda:
+  + 🎤 Presentador(a)
+  + ⏱️ Responsable del tiempo
+  + 📝 Tomador(a) de notas
+- Cada integrante tendrá 3 minutos para enseñar una parte de la lección elegida mediante codificación en vivo.
+- Antes de comenzar, expliquen brevemente:
+  + qué van a enseñar, y
+  + qué conocimientos previos se supone que ya tiene la audiencia.
+- Durante la demostración, los demás integrantes observarán sin programar al mismo tiempo.
+- Al finalizar, dediquen aproximadamente 1 minuto por persona a compartir retroalimentación utilizando la rúbrica 2×2. Quien presentó debe comenzar con una breve autoevaluación.
+- El/la responsable del tiempo se encargará de mantener la actividad dentro de los tiempos establecidos.
+- El/la tomador(a) de notas registrará los principales comentarios de retroalimentación en el Etherpad.
+- Cambien los roles y repitan la dinámica hasta que las tres personas hayan realizado la demostración.
 
-**Este ejercicio debe tomar aproximadamente 25 minutos.**
+**Duración total aproximada: 25 minutos.**
 :::

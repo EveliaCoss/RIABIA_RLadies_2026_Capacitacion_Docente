@@ -69,7 +69,7 @@
     "href": "Cap5A.html",
     "title": "4  Enseñar en línea",
     "section": "",
-    "text": "4.1 Lista de verificación para sesiones en línea:\nEjemplo de un curso en linea:",
+    "text": "4.1 Lista de verificación para sesiones en línea:",
     "crumbs": [
       "**Sección 4** - Enseñar en línea y Planificación de cursos",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Enseñar en línea</span>"
@@ -87,11 +87,22 @@
     ]
   },
   {
+    "objectID": "Cap5B.html",
+    "href": "Cap5B.html",
+    "title": "5  Planificación de un curso",
+    "section": "",
+    "text": "Ejemplo de un curso en linea:\n\nGithub: 2024-12-10-Workshop-Bash\nPagina web: 2024-12-10-Workshop-Bash\nMaterial: Workshop Bash 2024\n\n\n\n\n\n\n\nTipTemplate para cursos\n\n\n\nSi quieres usar el template que uso en los Workshop puedes usar Workshop_template, genera un nuevo repositorio dando click en USE THIS TEMPLATE/CREATE A NEW REPOSITORY.\n\n\n\n\n\n\n\n\nNotaPresentación creada en Rmarkdown\n\n\n\nDa click en el siguiente link para que puedas ver la presentación completa.",
+    "crumbs": [
+      "**Sección 4** - Enseñar en línea y Planificación de cursos",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Planificación de un curso</span>"
+    ]
+  },
+  {
     "objectID": "Cap5C.html",
     "href": "Cap5C.html",
     "title": "6  Simulación de entrenamiento 1 (en grupos)",
     "section": "",
-    "text": "AdvertenciaPráctica de Enseñanza\n\n\n\n\nDivídanse en grupos de tres personas.\nAsignen roles, que irán rotando: presentador(a), responsable del tiempo y tomador(a) de notas.\nCada miembro del grupo debe enseñar 3 minutos de un episodio de la lección elegida utilizando codificación en vivo. Para este ejercicio, sus compañeros no codificarán al mismo tiempo. Antes de comenzar, describan brevemente qué van a enseñar y qué se ha aprendido previamente.\nAl terminar cada presentación, cada miembro del grupo debe compartir retroalimentación (comenzando por sí mismo) utilizando la rúbrica 2x2. El responsable del tiempo debe limitar la discusión de retroalimentación a aproximadamente 1 minuto por persona, lo cual podría dejar tiempo al final para una discusión general.\nEl tomador(a) de notas debe registrar la retroalimentación en el Etherpad.\nCambien de roles después de cada ronda.\n\nEste ejercicio debe tomar aproximadamente 25 minutos.",
+    "text": "Advertencia👩💻 Práctica de codificación en vivo\n\n\n\n\nFormen grupos de tres personas.\nAsignen tres roles, que rotarán después de cada ronda:\n\n🎤 Presentador(a)\n⏱️ Responsable del tiempo\n📝 Tomador(a) de notas\n\nCada integrante tendrá 3 minutos para enseñar una parte de la lección elegida mediante codificación en vivo.\nAntes de comenzar, expliquen brevemente:\n\nqué van a enseñar, y\nqué conocimientos previos se supone que ya tiene la audiencia.\n\nDurante la demostración, los demás integrantes observarán sin programar al mismo tiempo.\nAl finalizar, dediquen aproximadamente 1 minuto por persona a compartir retroalimentación utilizando la rúbrica 2×2. Quien presentó debe comenzar con una breve autoevaluación.\nEl/la responsable del tiempo se encargará de mantener la actividad dentro de los tiempos establecidos.\nEl/la tomador(a) de notas registrará los principales comentarios de retroalimentación en el Etherpad.\nCambien los roles y repitan la dinámica hasta que las tres personas hayan realizado la demostración.\n\nDuración total aproximada: 25 minutos.",
     "crumbs": [
       "**Sección 4** - Enseñar en línea y Planificación de cursos",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Simulación de entrenamiento 1 (en grupos)</span>"
